@@ -4,7 +4,7 @@
     "skills": "TECHNICAL SKILLS",
     "languages": "LANGUAGES",
     "status": "STATUS",
-    "objective": "PROFESSIONAL SUMMARY",
+    "objective": "EXECUTIVE SUMMARY",
     "experience": "PROFESSIONAL EXPERIENCE",
     "projects": "FEATURED BACKEND PROJECTS",
     "education": "EDUCATION"
@@ -79,11 +79,11 @@
   "languages": [
     {
       "name": "English",
-      "level": "C1 - Professional"
+      "level": "C1 (Professional technical)"
     },
     {
       "name": "French",
-      "level": "B2"
+      "level": "B2 (Operational)"
     },
     {
       "name": "Polish",
@@ -118,17 +118,18 @@
       ]
     },
     {
-      "title": "Freelance Backend Developer",
-      "company": "Various B2B Clients & Startups",
+      "title": "Consultant & Freelance Backend Developer",
+      "company": "B2B Startups & FinTech",
       "period": "01/2022 - 02/2024",
       "responsibilities": [
+        "Designed and deployed complex architectures as a Solo Architect or integrated with internal teams.",
         "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (FinTech Marketplace)</a> :</strong> Architected a marketplace processing $500k+ monthly GMV via Stripe Connect, with strict PCI-DSS security compliance. Optimized SQL queries (LATERAL JOINs) reducing latency by 60% across 2M+ records.",
         "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (AI EdTech)</a> :</strong> Deployed a secure AI platform (data sanitization for RGPD compliance) with RAG-based feedback and a fault-tolerant LLM executor, maintaining a sub-200ms Time To First Token (TTFT) and 99.9% uptime.",
         "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (AI Coaching)</a> :</strong> Built a real-time AI voice coaching platform supporting 500+ concurrent audio streams with <300ms latency, via Web Audio API and Google Speech-to-Text integration."
       ]
     },
     {
-      "title": "Junior Back End Developer",
+      "title": "Back End Developer",
       "company": "Itransition",
       "period": "01/2021 - 12/2021",
       "responsibilities": [
@@ -149,7 +150,7 @@
       "degree": "Technician Diploma (Bac+2) | Radio-Electronics",
       "institution": "<a href=\"https://en.wikipedia.org/wiki/Minsk_Radioengineering_College\" target=\"_blank\">Minsk State Higher College of Radiotechnics</a>",
       "period": "2015 – 2019",
-      "description": "Analog/digital electronics and low-level programming (C)."
+      "description": "Technical Focus: Analog/digital electronics and low-level programming (C)."
     }
   ]
 }
