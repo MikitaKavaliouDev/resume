@@ -11,9 +11,9 @@
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
-    "title": "Ingénieur Backend | IA & Systèmes Distribués",
+    "title": "Ingénieur Backend • IA & Systèmes Distribués",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Architecte Backend spécialisé en PHP (Symfony 7), Node.js et systèmes distribués. Expert en architectures SaaS multi-tenants sécurisées, intégrations fintech (Stripe Connect) et systèmes de failover IA résilients pour plateformes servant 200k+ utilisateurs actifs (MAU).",
+    "professionalObjective": "Engineer Backend spécialisé dans l'écosystème Node.js et l'orchestration d'architectures IA (LLM, RAG). Expert en modernisation de systèmes legacy et en conception de plateformes SaaS hautement scalables. Reconnu pour aligner l'excellence technique (haute disponibilité, optimisation des performances) avec les objectifs d'affaires, tout en garantissant la sécurité des données (RGPD, PCI-DSS) et en tirant vers le haut les équipes de développement.",
     "status": "Basé à Grenoble (38) | Visa VPF – Libre accès au marché du travail"
   },
   "contact": [
@@ -80,7 +80,7 @@
   "languages": [
     {
       "name": "Anglais",
-      "level": "C1 (Professionnel)"
+      "level": "C1 - Professionnel"
     },
     {
       "name": "Français",
@@ -97,63 +97,52 @@
     {
       "name": "Espagnol",
       "level": "B2"
-    },
-    {
-      "name": "Portugais",
-      "level": "B1"
-    },
-    {
-      "name": "Allemand",
-      "level": "A2"
     }
   ],
   "experience": [
     {
       "title": "Ingénieur Logiciel Backend & IA",
       "company": "Basesystem",
-      "period": "Février 2024 – Avril 2026",
+      "period": "02/2024 - 04/2026",
       "responsibilities": [
-        "Architecturé une gateway LLM multi-fournisseur avec failover automatisé et token-cost throttling pour une plateforme de 200k+ utilisateurs, utilisant Prometheus/Grafana pour l'observabilité temps réel, réduisant les coûts API de 25% tout en maintenant 99.9% de disponibilité.",
-        "Architecture d'APIs critiques avec Symfony 6/7 et API Platform, imposant la Clean Architecture et les principes DDD pour une scalabilité Enterprise, optimisant le support de pics de 1 200 requêtes/seconde (RPS).",
-        "Mis en place des systèmes de jobs robustes via Symfony Messenger et Redis, traitant des milliers de webhooks sans perte de messages.",
-        "Développé des workflows Stripe Connect complexes pour paiements multi-parties gérant 500k$+ de GMV mensuel avec vérification KYC automatisée.",
-        "Conteneurisé les services backend avec Docker et déployé sur une infrastructure AWS scalable, garantissant une disponibilité de 99,95% lors de pics de charge 10x.",
-        "Mis en place des pipelines de test automatisés (PHPUnit/Behat) atteignant 85% de couverture de code sur les services backend, réduisant considérablement les risques de régression lors des déploiements."
+        "Pilotage de la migration d'un monolithe PHP legacy vers une stack moderne (Next.js 15, Node.js, Prisma, Redis), supportant des pics à 1 200 requêtes/seconde (RPS) avec un auto-scaling AWS garantissant 99,95% de disponibilité.",
+        "Optimisation des performances Backend (requêtes SQL, mise en cache Redis, configurations PHP-FPM) en éliminant les goulots d'étranglement, générant une réduction de 30% du temps de réponse API et maintenant la stabilité pour 200k+ utilisateurs actifs.",
+        "Conduite de la transition vers TypeScript et la Clean Architecture pour une équipe de 3 développeurs. Déploiement d'une suite de tests automatisés (PHPUnit/Playwright) couvrant 80% des parcours critiques, réduisant les régressions de 35% et accélérant les revues de code de 40%."
       ]
     },
     {
       "title": "Développeur Backend Indépendant",
       "company": "Divers Clients B2B & Startups",
-      "period": "Janvier 2022 – Février 2024",
+      "period": "01/2022 - 02/2024",
       "responsibilities": [
-        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech)</a> :</strong> Développé une couche de service IA composite en Node.js/TypeScript orchestrant Gemini, Groq et Cerebras avec failover automatisé, maintenant un TTFT < 200ms et une disponibilité de 99,9%.",
-        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace)</a> :</strong> Architecturé des couches de données haut débit via LATERAL JOINs et vues matérialisées (réduction charge DB de 80% sur +2M d'enregistrements), développé des workflows Stripe Connect gérant 500k$+ de GMV mensuel avec vérification KYC automatisée.",
-        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construit Lexity MVP et Interly MVP de zéro (Next.js, TypeScript, Prisma, PostgreSQL), supportant 500+ flux audio simultanés avec une latence < 300ms; mis en place des pipelines de test automatisés à 85% de couverture."
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace FinTech)</a> :</strong> Architecture d'une marketplace traitant +500k$ de GMV mensuel via Stripe Connect, avec intégration stricte des normes de sécurité PCI-DSS. Optimisation des requêtes SQL (LATERAL JOINs) réduisant la latence de 60% sur une base de +2 millions d'enregistrements.",
+        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech IA)</a> :</strong> Déploiement d'une plateforme IA sécurisée (sanitisation des données pour conformité RGPD) avec feedback RAG et exécuteur LLM résilient, assurant un Time-To-First-Token (TTFT) < 200ms et une disponibilité de 99,9%.",
+        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construction d'une plateforme de coaching vocal temps réel supportant plus de 500 flux audio simultanés avec une latence < 300ms, via l'intégration de la Web Audio API et Google Speech-to-Text."
       ]
     },
     {
       "title": "Développeur Back-End Junior",
       "company": "Itransition",
-      "period": "Janvier 2021 - Décembre 2021",
+      "period": "01/2021 - 12/2021",
       "responsibilities": [
-        "Développé des modules d'application PHP/Symfony en équipes Agile, appliquant les patterns architecturaux et les bonnes pratiques de code production acquises lors de revues de code structurées.",
-        "Conçu des requêtes SQL complexes et optimisé les performances Doctrine ORM, réduisant les temps de réponse des requêtes les plus lentes de 35 % sur les endpoints à fort trafic."
+        "Conception et déploiement de micro-services scalables (Node.js/PostgreSQL) pour des applications Enterprise (traitant +50k requêtes/jour), éliminant les goulots d'étranglement legacy et garantissant des mises en production continues sans interruption de service.",
+        "Standardisation des revues de code via une checklist structurée, réduisant le temps de review de 25% et limitant les retours post-merge à moins de 2 par sprint, accélérant ainsi les cycles de livraison globaux de 20%."
       ]
     }
   ],
   "projects": [],
   "education": [
     {
-      "degree": "Technicien Radio‑électronique (Bac+2)",
-      "institution": "<a href=\"https://en.wikipedia.org/wiki/Minsk_Radioengineering_College\" target=\"_blank\">Minsk State Higher College of Radiotechnics</a>",
-      "period": "2019",
-      "description": "Programme couvrant l'électronique analogique/numérique et la programmation bas niveau de microcontrôleurs (C, Assembleur)."
+      "degree": "Formation d'Ingénieur en Systèmes Mobiles Programmables (3 années validées)",
+      "institution": "<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_d%27%C3%89tat_de_B%C3%A9larus_d%27informatique_et_de_radio%C3%A9lectronique\" target=\"_blank\">BSUIR (Université d'État d'Informatique et de Radioélectronique de Minsk)</a>",
+      "period": "2019 – 2022",
+      "description": "Focus Technique : Programmation système (C, C++, Assembleur), architecture des microprocesseurs et algorithmique fondamentale."
     },
     {
-      "degree": "Études en systèmes mobiles programmables (Bac+3)",
-      "institution": "<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_d%27%C3%89tat_de_B%C3%A9larus_d%27informatique_et_de_radio%C3%A9lectronique\" target=\"_blank\">BSUIR</a>",
-      "period": "2022",
-      "description": "Approfondissement en systèmes embarqués, développement mobile (Java/Kotlin) et architectures temps réel."
+      "degree": "Diplôme de Technicien (Bac+2) | Radio-électronique",
+      "institution": "<a href=\"https://en.wikipedia.org/wiki/Minsk_Radioengineering_College\" target=\"_blank\">Minsk State Higher College of Radiotechnics</a>",
+      "period": "2015 – 2019",
+      "description": "Électronique analogique/numérique et programmation bas niveau (C)."
     }
   ]
 }

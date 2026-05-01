@@ -11,9 +11,9 @@
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
-    "title": "Ingénieur Front-End | React 19 & Performance",
+    "title": "Ingénieur Front-End • React 19 & Performance",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Ingénieur Front-End orienté produit, spécialisé React 19, Next.js 15 et TypeScript. Expert en création d'interfaces performantes et accessibles (Lighthouse >90) pour plateformes SaaS servant 200k+ utilisateurs actifs (MAU), et intégration d'API navigateur complexes (Web Audio, WebRTC) pour des expériences web de qualité native.",
+    "professionalObjective": "Engineer Front-End spécialisé dans l'écosystème React (Next.js 15) et l'orchestration d'architectures IA (LLM, RAG). Expert en modernisation de systèmes legacy et en conception de plateformes SaaS hautement scalables. Reconnu pour aligner l'excellence technique (haute disponibilité, optimisation des performances) avec les objectifs d'affaires, tout en garantissant la sécurité des données (RGPD, PCI-DSS) et en tirant vers le haut les équipes de développement.",
     "status": "Basé à Grenoble (38) | Visa VPF – Libre accès au marché du travail"
   },
   "contact": [
@@ -74,7 +74,7 @@
   "languages": [
     {
       "name": "Anglais",
-      "level": "C1 (Professionnel)"
+      "level": "C1 - Professionnel"
     },
     {
       "name": "Français",
@@ -105,49 +105,46 @@
     {
       "title": "Ingénieur Front-End",
       "company": "Basesystem",
-      "period": "Février 2024 – Avril 2026",
+      "period": "02/2024 - 04/2026",
       "responsibilities": [
-        "Standardisé une architecture Server-Component-First en Next.js pour une plateforme de 200k+ utilisateurs, réduisant les bundles client de 45% et atteignant un sub-second Time to Interactive sur des dashboards data-heavy.",
-        "Dirigé la refonte de vues legacy vers des composants Next.js modulaires, établissant une architecture scalable optimisée pour supporter des pics de 1 200 requêtes/seconde (RPS) avec des scores Lighthouse systématiquement >90.",
-        "Implémenté une gestion d'état stricte (Zustand) et des stratégies de cache via TanStack Query, contribuant à une accélération globale de 30% et réduisant drastiquement les re-rendus inutiles.",
-        "Collaboré directement avec les designers UX/UI pour implémenter des motifs responsive, améliorant la mobilité et générant +5% de conversion.",
-        "Géré les déploiements cloud sur Vercel et AWS, configurant des pipelines CI/CD pour des releases zéro-downtime, garantissant une disponibilité de 99,95% lors de pics de charge 10x.",
-        "Implémenté une suite de tests E2E (Playwright) couvrant 80% des parcours critiques, réduisant les régressions en production de 35%."
+        "Pilotage de la migration d'un monolithe PHP legacy vers une stack Frontend moderne (Next.js 15, TypeScript, Tailwind CSS), supportant des pics à 1 200 requêtes/seconde (RPS) avec un auto-scaling AWS garantissant 99,95% de disponibilité.",
+        "Optimisation radicale des performances Frontend (Zustand, TanStack Query) en éliminant les re-rendus superflus, générant une réduction de 30% du temps de chargement et boostant la conversion de 5% pour 200k+ utilisateurs actifs.",
+        "Conduite de la transition vers TypeScript et la Clean Architecture pour une équipe de 3 développeurs. Déploiement d'une suite de tests E2E (Playwright) couvrant 80% des parcours critiques, réduisant les régressions de 35% et accélérant les revues de code de 40%."
       ]
     },
     {
       "title": "Développeur Front-End Indépendant",
       "company": "Divers Clients B2B & Startups",
-      "period": "Janvier 2022 – Février 2024",
+      "period": "01/2022 - 02/2024",
       "responsibilities": [
-        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech)</a> :</strong> Architecturé et déployé une plateforme d'apprentissage linguistique full-stack (Next.js, TypeScript, Tailwind CSS, Zustand) avec feedback contextuel RAG, chiffrement AES-256 et UI responsive Lighthouse >90 — assurant un TTFT < 200ms.",
-        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace)</a> :</strong> Architecturé un marketplace fitness B2B2C gérant 500k$+ de GMV mensuel avec découverte interactive par carte (Leaflet), routage de paiements multi-parties et UI responsive cross-platform avec visualisations de données complexes sur +2M d'enregistrements.",
-        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construit une plateforme de coaching vocal IA supportant 500+ flux audio simultanés avec une latence < 300ms, intégrant Web MediaRecorder API et Web Audio API, avec des suites de tests E2E (Playwright) pour les pipelines CI/CD."
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace FinTech)</a> :</strong> Architecture d'une interface interactive de marketplace (Next.js, Leaflet, Tailwind CSS) traitant +500k$ de GMV mensuel via Stripe Connect, avec intégration stricte des normes de sécurité PCI-DSS et visualisations de données complexes.",
+        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech IA)</a> :</strong> Déploiement d'une plateforme IA sécurisée (sanitisation des données pour conformité RGPD) avec feedback RAG et exécuteur LLM résilient, assurant un Time-To-First-Token (TTFT) < 200ms et une disponibilité de 99,9%.",
+        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construction d'une plateforme de coaching vocal temps réel supportant plus de 500 flux audio simultanés avec une latence < 300ms, via l'intégration de la Web Audio API et Google Speech-to-Text."
       ]
     },
     {
       "title": "Développeur Front-End Junior",
       "company": "Itransition",
-      "period": "Janvier 2021 - Décembre 2021",
+      "period": "01/2021 - 12/2021",
       "responsibilities": [
-        "Développé des composants d'application web responsives en équipes Agile avec React et JavaScript moderne, collaborant sur l'implémentation de fonctionnalités et les revues de code.",
-        "Implémenté des mises en page compatibles multi-navigateurs et effectué du débogage cross-plateforme, garantissant des expériences utilisateur homogènes sur 6 navigateurs et réduisant les tickets d'incompatibilité de 40 %."
+        "Développement de composants React responsives et accessibles pour des applications Enterprise (traitant +50k requêtes/jour), contribuant à une bibliothèque de composants réutilisables et réduisant le temps de développement de 25%.",
+        "Standardisation des revues de code via une checklist structurée, réduisant le temps de review de 25% et limitant les retours post-merge à moins de 2 par sprint, accélérant ainsi les cycles de livraison globaux de 20%."
       ]
     }
   ],
   "projects": [],
   "education": [
     {
-      "degree": "Technicien Radio‑électronique (Bac+2)",
-      "institution": "<a href=\"https://en.wikipedia.org/wiki/Minsk_Radioengineering_College\" target=\"_blank\">Minsk State Higher College of Radiotechnics</a>",
-      "period": "2019",
-      "description": "Programme couvrant l'électronique analogique/numérique et la programmation bas niveau de microcontrôleurs (C, Assembleur)."
+      "degree": "Formation d'Ingénieur en Systèmes Mobiles Programmables (3 années validées)",
+      "institution": "<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_d%27%C3%89tat_de_B%C3%A9larus_d%27informatique_et_de_radio%C3%A9lectronique\" target=\"_blank\">BSUIR (Université d'État d'Informatique et de Radioélectronique de Minsk)</a>",
+      "period": "2019 – 2022",
+      "description": "Focus Technique : Programmation système (C, C++, Assembleur), architecture des microprocesseurs et algorithmique fondamentale."
     },
     {
-      "degree": "Études en systèmes mobiles programmables (Bac+3)",
-      "institution": "<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_d%27%C3%89tat_de_B%C3%A9larus_d%27informatique_et_de_radio%C3%A9lectronique\" target=\"_blank\">BSUIR</a>",
-      "period": "2022",
-      "description": "Approfondissement en systèmes embarqués, développement mobile (Java/Kotlin) et architectures temps réel."
+      "degree": "Diplôme de Technicien (Bac+2) | Radio-électronique",
+      "institution": "<a href=\"https://en.wikipedia.org/wiki/Minsk_Radioengineering_College\" target=\"_blank\">Minsk State Higher College of Radiotechnics</a>",
+      "period": "2015 – 2019",
+      "description": "Électronique analogique/numérique et programmation bas niveau (C)."
     }
   ]
 }

@@ -11,9 +11,9 @@
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
-    "title": "Ingénieur Full-Stack | Next.js, TypeScript & IA",
+    "title": "Ingénieur Full-Stack • Next.js, TypeScript & IA",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Ingénieur Full-Stack spécialisé Next.js 15, TypeScript et orchestration IA. Expert en modernisation de systèmes legacy, optimisation SQL (latence réduite de 60%) et architectures LLM pour plateformes SaaS servant +200k utilisateurs actifs (MAU).",
+    "professionalObjective": "Ingénieur Full-Stack spécialisé dans l'écosystème React (Next.js 15) et l'orchestration d'architectures IA (LLM, RAG). Expert en modernisation de systèmes legacy et en conception de plateformes SaaS hautement scalables. Reconnu pour aligner l'excellence technique (haute disponibilité, optimisation des performances) avec les objectifs d'affaires, tout en garantissant la sécurité des données (RGPD, PCI-DSS) et en tirant vers le haut les équipes de développement.",
     "status": "Basé à Grenoble (38) | Visa VPF – Libre accès au marché du travail"
   },
   "contact": [
@@ -93,7 +93,7 @@
   "languages": [
     {
       "name": "Anglais",
-      "level": "C1 (Professionnel)"
+      "level": "C1 - Professionnel"
     },
     {
       "name": "Français",
@@ -112,48 +112,46 @@
     {
       "title": "Ingénieur Logiciel Full Stack",
       "company": "Basesystem",
-      "period": "Février 2024 – Avril 2026",
+      "period": "02/2024 - 04/2026",
       "responsibilities": [
-        "Piloté la transition vers TypeScript et Clean Architecture pour une plateforme de 200k+ utilisateurs, accélérant les délais de revue de code de 40%.",
-        "Architecture de la migration d'un système PHP legacy vers une stack Next.js/Node.js, optimisant la scalabilité pour supporter des pics de 1 200 requêtes/seconde (RPS).",
-        "Présenté les décisions techniques aux parties prenantes, traduisant les gains de performance (accélération de 30%, +5% conversion) en valeur métier.",
-        "Conteneurisation des micro-services avec Docker et déploiement sur AWS, garantissant une disponibilité de 99,95% lors de pics de charge critiques.",
-        "Implémenté une suite de tests E2E (Playwright) couvrant 80% des parcours critiques, réduisant les régressions en production de 35%."
+        "Pilotage de la migration d'un monolithe PHP legacy vers une stack moderne (Next.js 15, Node.js, Prisma, Redis), supportant des pics à 1 200 requêtes/seconde (RPS) avec un auto-scaling AWS garantissant 99,95% de disponibilité.",
+        "Optimisation radicale des performances Frontend (Zustand, TanStack Query) en éliminant les re-rendus superflus, générant une réduction de 30% du temps de chargement et boostant la conversion de 5% pour 200k+ utilisateurs actifs.",
+        "Conduite de la transition vers TypeScript et la Clean Architecture pour une équipe de 3 développeurs. Déploiement d'une suite de tests E2E (Playwright) couvrant 80% des parcours critiques, réduisant les régressions de 35% et accélérant les revues de code de 40%."
       ]
     },
     {
       "title": "Développeur Full-Stack Indépendant",
       "company": "Divers Clients B2B & Startups",
-      "period": "Janvier 2022 – Février 2024",
+      "period": "01/2022 - 02/2024",
       "responsibilities": [
-        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech)</a> :</strong> Déploiement d'une plateforme IA avec feedback RAG et exécuteur LLM résilient, assurant un TTFT < 200ms et une disponibilité de 99,9%.",
-        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace)</a> :</strong> Architecture d'un marketplace gérant 500k$+ de GMV mensuel via Stripe Connect ; optimisation SQL (LATERAL JOINs) réduisant la latence de 60% sur +2M d'enregistrements.",
-        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construction d'une plateforme de coaching vocal supportant 500+ flux audio simultanés avec une latence < 300ms via Web Audio API et Google Speech-to-Text."
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace FinTech)</a> :</strong> Architecture d'une marketplace traitant +500k$ de GMV mensuel via Stripe Connect, avec intégration stricte des normes de sécurité PCI-DSS. Optimisation des requêtes SQL (LATERAL JOINs) réduisant la latence de 60% sur une base de +2 millions d'enregistrements.",
+        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech IA)</a> :</strong> Déploiement d'une plateforme IA sécurisée (sanitisation des données pour conformité RGPD) avec feedback RAG et exécuteur LLM résilient, assurant un Time-To-First-Token (TTFT) < 200ms et une disponibilité de 99,9%.",
+        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construction d'une plateforme de coaching vocal temps réel supportant plus de 500 flux audio simultanés avec une latence < 300ms, via l'intégration de la Web Audio API et Google Speech-to-Text."
       ]
     },
     {
       "title": "Développeur Full-Stack Junior",
       "company": "Itransition",
-      "period": "Janvier 2021 - Décembre 2021",
+      "period": "01/2021 - 12/2021",
       "responsibilities": [
-        "Développement et maintenance de modules critiques dans une architecture micro-services pour des clients grands comptes en environnement Agile/Scrum.",
-        "Standardisation des revues de code avec une checklist structurée, réduisant le temps de review de 25% et limitant les retours post-merge à moins de 2 par sprint."
+        "Conception et déploiement de micro-services scalables (Node.js/PostgreSQL) pour des applications Enterprise (traitant +50k requêtes/jour), éliminant les goulots d'étranglement legacy et garantissant des mises en production continues sans interruption de service.",
+        "Standardisation des revues de code via une checklist structurée, réduisant le temps de review de 25% et limitant les retours post-merge à moins de 2 par sprint, accélérant ainsi les cycles de livraison globaux de 20%."
       ]
     }
   ],
   "projects": [],
   "education": [
     {
-      "degree": "Technicien Radio‑électronique (Bac+2)",
-      "institution": "<a href=\"https://en.wikipedia.org/wiki/Minsk_Radioengineering_College\" target=\"_blank\">Minsk State Higher College of Radiotechnics</a>",
-      "period": "2019",
-      "description": "Programme couvrant l'électronique analogique/numérique et la programmation bas niveau (C, Assembleur)."
+      "degree": "Formation d'Ingénieur en Systèmes Mobiles Programmables (3 années validées)",
+      "institution": "<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_d%27%C3%89tat_de_B%C3%A9larus_d%27informatique_et_de_radio%C3%A9lectronique\" target=\"_blank\">BSUIR (Université d'État d'Informatique et de Radioélectronique de Minsk)</a>",
+      "period": "2019 – 2022",
+      "description": "Focus Technique : Programmation système (C, C++, Assembleur), architecture des microprocesseurs et algorithmique fondamentale."
     },
     {
-      "degree": "Équivalent Bachelor en Systèmes Mobiles Programmables (Bac+3)",
-      "institution": "<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_d%27%C3%89tat_de_B%C3%A9larus_d%27informatique_et_de_radio%C3%A9lectronique\" target=\"_blank\">BSUIR</a>",
-      "period": "2022",
-      "description": "Approfondissement en systèmes embarqués, développement mobile (Java/Kotlin) et architectures temps réel."
+      "degree": "Diplôme de Technicien (Bac+2) | Radio-électronique",
+      "institution": "<a href=\"https://en.wikipedia.org/wiki/Minsk_Radioengineering_College\" target=\"_blank\">Minsk State Higher College of Radiotechnics</a>",
+      "period": "2015 – 2019",
+      "description": "Électronique analogique/numérique et programmation bas niveau (C)."
     }
   ]
 }
