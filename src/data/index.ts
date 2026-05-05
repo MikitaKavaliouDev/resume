@@ -8,6 +8,10 @@ import backendEn from './backend-en.json';
 import backendFr from './backend-fr.json';
 import phpEn from './php-en.json';
 import phpFr from './php-fr.json';
+import javaAngularEn from './java-angular-en.json';
+import javaAngularFr from './java-angular-fr.json';
+import aiExpertEn from './ai-expert-en.json';
+import aiExpertFr from './ai-expert-fr.json';
 
 export const cvDatabase: CVDatabase = [
   {
@@ -40,6 +44,22 @@ export const cvDatabase: CVDatabase = [
     data: {
       en: phpEn,
       fr: phpFr
+    }
+  },
+  {
+    id: 'java_angular_engineer',
+    name: 'Java & Angular Engineer',
+    data: {
+      en: javaAngularEn,
+      fr: javaAngularFr
+    }
+  },
+  {
+    id: 'ai_expert_engineer',
+    name: 'AI Expert / Engineer',
+    data: {
+      en: aiExpertEn,
+      fr: aiExpertFr
     }
   }
 ];

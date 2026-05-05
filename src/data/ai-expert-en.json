@@ -1,0 +1,158 @@
+{
+  "sections": {
+    "contact": "CONTACT",
+    "skills": "TECHNICAL SKILLS",
+    "languages": "LANGUAGES",
+    "status": "STATUS",
+    "objective": "EXECUTIVE SUMMARY",
+    "experience": "PROFESSIONAL EXPERIENCE",
+    "projects": "FEATURED AI & ENGINEERING PROJECTS",
+    "education": "EDUCATION"
+  },
+  "personalInfo": {
+    "name": "MIKITA KAVALIOU",
+    "title": "AI Engineer • LLM Orchestration, RAG & Scalable AI Platforms",
+    "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
+    "professionalObjective": "AI Engineer specializing in LLM orchestration, RAG architectures, and production-grade AI platform engineering. Expert in building fault-tolerant AI systems with real-time inference, voice AI, and secure data pipelines. Recognized for bridging the gap between AI research and production — delivering sub-200ms inference latency, 99.9% uptime on AI services, and RGPD-compliant data handling at scale.",
+    "status": "Based in Grenoble, France | VPF Visa – Free access to the French job market"
+  },
+  "contact": [
+    {
+      "text": "+33 7 53 12 40 25",
+      "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+    },
+    {
+      "text": "mikita-kavaliou.online",
+      "url": "https://mikita-kavaliou.online",
+      "svgPath": "<path d=\"M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z\"></path>"
+    },
+    {
+      "text": "mikita.kavaliou@outlook.fr",
+      "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+    },
+    {
+      "text": "linkedin.com/in/mikita-kavaliou",
+      "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+      "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+    },
+    {
+      "text": "github.com/MikitaKavaliouDev",
+      "url": "https://github.com/MikitaKavaliouDev",
+      "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
+    }
+  ],
+  "skills": [
+    {
+      "title": "LLM & AI Engineering",
+      "skills": [
+        "LLM Orchestration (Gemini, Groq, OpenAI)",
+        "RAG Architectures & Vector Databases",
+        "Prompt Engineering & Fine-Tuning",
+        "AI Security & Data Sanitization",
+        "LLM Gateway Design & Failover Strategies",
+        "Token-Cost Optimization & Throttling"
+      ]
+    },
+    {
+      "title": "AI Applications & Real-Time Systems",
+      "skills": [
+        "Voice AI / Speech-to-Text (Google STT)",
+        "Real-Time Audio Streaming (Web Audio API)",
+        "Concurrent Stream Processing (500+)",
+        "AI Observability & Drift Monitoring",
+        "Multi-Provider LLM Routing",
+        "Prometheus / Grafana"
+      ]
+    },
+    {
+      "title": "Backend & Platform Engineering",
+      "skills": [
+        "Node.js / TypeScript",
+        "Python (Data Pipelines, AI Services)",
+        "PostgreSQL (Query Optimization)",
+        "Redis (Caching, Session Management)",
+        "Docker & AWS (EC2, Lambda, S3)",
+        "CI/CD (GitHub Actions, Cloud Run)"
+      ]
+    },
+    {
+      "title": "Architecture & Quality",
+      "skills": [
+        "Clean Architecture / Event-Driven Design",
+        "RESTful & GraphQL API Design",
+        "RGPD & PCI-DSS Compliance",
+        "Playwright / E2E Testing",
+        "System Programming (C, C++ — Real-Time)"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "C1 (Professional technical)"
+    },
+    {
+      "name": "French",
+      "level": "B2 (Operational)"
+    },
+    {
+      "name": "Polish",
+      "level": "C1"
+    },
+    {
+      "name": "Russian",
+      "level": "Native"
+    },
+    {
+      "name": "Spanish",
+      "level": "B2"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "Basesystem",
+      "period": "02/2024 - 04/2026",
+      "responsibilities": [
+        "Orchestrated the migration of a legacy PHP monolith to a modern TypeScript stack (Node.js, Prisma, Redis), delivering a scalable platform capable of 1,200 RPS with 99.95% availability via AWS auto-scaling — establishing the engineering foundation for subsequent AI feature integration.",
+        "Designed and deployed resilient backend services with event-driven architecture, achieving a 30% reduction in API response times through query optimization and distributed caching for 200k+ MAU.",
+        "Led the adoption of Clean Architecture and TypeScript across a team of 3, implemented comprehensive E2E test coverage (Playwright, Vitest) at 80% of critical paths, reducing regressions by 35% and accelerating code reviews by 40%."
+      ]
+    },
+    {
+      "title": "AI Consultant & Engineer",
+      "company": "B2B Startups & FinTech",
+      "period": "01/2022 - 02/2024",
+      "responsibilities": [
+        "Architected and deployed AI platforms as a Solo Engineer or embedded with client teams — delivering production-grade LLM services with strict security and latency guarantees.",
+        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (AI EdTech)</a> :</strong> Designed and deployed a secure AI platform with RAG-based intelligent feedback, multi-provider LLM executor with automatic failover, and data sanitization pipelines for RGPD compliance — maintaining sub-200ms TTFT and 99.9% uptime.",
+        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (AI Coaching)</a> :</strong> Built a real-time AI voice coaching platform supporting 500+ concurrent audio streams with <300ms latency, integrating Web Audio API and Google Speech-to-Text for low-latency voice interaction.",
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (FinTech Marketplace)</a> :</strong> Architected a full-stack marketplace processing $500k+ monthly GMV via Stripe Connect, demonstrating end-to-end system design capability beyond AI."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Itransition",
+      "period": "01/2021 - 12/2021",
+      "responsibilities": [
+        "Designed and deployed scalable micro-services (Node.js/PostgreSQL) for Enterprise applications (processing 50k+ requests/day), applying Clean Architecture principles with zero-downtime production deployments.",
+        "Standardized code review processes with structured checklists, reducing review turnaround by 25% and limiting post-merge defects to under 2 per sprint."
+      ]
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "degree": "Engineering Degree in Programmable Mobile Systems (3 years completed)",
+      "institution": "<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_d%27%C3%89tat_de_B%C3%A9larus_d%27informatique_et_de_radio%C3%A9lectronique\" target=\"_blank\">BSUIR (Belarusian State University of Informatics and Radioelectronics)</a>",
+      "period": "2019 – 2022",
+      "description": "Technical Focus: System programming (C, C++, Assembly), microprocessor architecture, and fundamental algorithms."
+    },
+    {
+      "degree": "Technician Diploma (Bac+2) | Radio-Electronics",
+      "institution": "<a href=\"https://en.wikipedia.org/wiki/Minsk_Radioengineering_College\" target=\"_blank\">Minsk State Higher College of Radiotechnics</a>",
+      "period": "2015 – 2019",
+      "description": "Technical Focus: Analog/digital electronics and low-level programming (C)."
+    }
+  ]
+}

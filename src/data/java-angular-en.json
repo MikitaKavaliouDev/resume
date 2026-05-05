@@ -1,0 +1,150 @@
+{
+  "sections": {
+    "contact": "CONTACT",
+    "skills": "TECHNICAL SKILLS",
+    "languages": "LANGUAGES",
+    "status": "STATUS",
+    "objective": "EXECUTIVE SUMMARY",
+    "experience": "PROFESSIONAL EXPERIENCE",
+    "projects": "FEATURED ENGINEERING PROJECTS",
+    "education": "EDUCATION"
+  },
+  "personalInfo": {
+    "name": "MIKITA KAVALIOU",
+    "title": "Java & Angular Engineer • Spring Boot, TypeScript & Clean Architecture",
+    "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
+    "professionalObjective": "Software Engineer specializing in the Java ecosystem (Spring Boot, Java 21) and modern frontend frameworks (Angular, TypeScript). Expert in distributed systems design, legacy platform migration, and AI-powered solutions. Recognized for aligning engineering excellence, high availability, and compliance (RGPD, PCI-DSS) with strong business impact.",
+    "status": "Based in Grenoble, France | VPF Visa – Free access to the French job market"
+  },
+  "contact": [
+    {
+      "text": "+33 7 53 12 40 25",
+      "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
+    },
+    {
+      "text": "mikita-kavaliou.online",
+      "url": "https://mikita-kavaliou.online",
+      "svgPath": "<path d=\"M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z\"></path>"
+    },
+    {
+      "text": "mikita.kavaliou@outlook.fr",
+      "svgPath": "<path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"></path><polyline points=\"22,6 12,13 2,6\"></polyline>"
+    },
+    {
+      "text": "linkedin.com/in/mikita-kavaliou",
+      "url": "https://linkedin.com/in/mikita-kavaliou-390b62236",
+      "svgPath": "<path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\"></path><rect x=\"2\" y=\"9\" width=\"4\" height=\"12\"></rect><circle cx=\"4\" cy=\"4\" r=\"2\"></circle>"
+    },
+    {
+      "text": "github.com/MikitaKavaliouDev",
+      "url": "https://github.com/MikitaKavaliouDev",
+      "svgPath": "<path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path>"
+    }
+  ],
+  "skills": [
+    {
+      "title": "Java Ecosystem",
+      "skills": [
+        "Java (OOP, Streams, Concurrency)",
+        "Spring Boot / Spring Cloud",
+        "JPA / Hibernate",
+        "JUnit 5 / Mockito",
+        "Microservices & Clean Architecture"
+      ]
+    },
+    {
+      "title": "Frontend & TypeScript",
+      "skills": [
+        "TypeScript (Expert)",
+        "Angular 15+ / RxJS / NgRx",
+        "React 19 / Next.js 15",
+        "HTML5 / CSS3 / Tailwind CSS"
+      ]
+    },
+    {
+      "title": "Infrastructure & Data",
+      "skills": [
+        "Kafka / RabbitMQ",
+        "PostgreSQL (Query Optimization)",
+        "Redis / Docker & AWS (EC2, RDS, S3)"
+      ]
+    },
+    {
+      "title": "Architecture & Quality",
+      "skills": [
+        "REST & GraphQL API Design",
+        "Stripe Connect / Fintech Payments",
+        "CI/CD (GitHub Actions)",
+        "System Programming (C, C++, Assembly)"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "C1 (Professional technical)"
+    },
+    {
+      "name": "French",
+      "level": "B2 (Operational)"
+    },
+    {
+      "name": "Polish",
+      "level": "C1"
+    },
+    {
+      "name": "Russian",
+      "level": "Native"
+    },
+    {
+      "name": "Spanish",
+      "level": "B2"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "Basesystem",
+      "period": "02/2024 - 04/2026",
+      "responsibilities": [
+        "<strong>Legacy migration to Java 21 & Spring Boot 3 :</strong> Migrated a monolithic architecture to a modular SOLID/DDD/Clean Architecture design.",
+        "<strong>Backend Development & Persistence :</strong> Implemented Spring Data JPA/Hibernate and QueryDSL for optimized data access. Applied Repository and AOP patterns for logging and security management.",
+        "<strong>Infrastructure & Performance :</strong> Optimized AWS infrastructure (Auto-scaling) handling 1,200 RPS. Tuned Spring Caching (Redis) and event-driven pipelines: 30% faster API response times for 200k+ users.",
+        "<strong>Quality & Mentoring :</strong> Led a team of 3 developers through Clean Architecture adoption. Implemented unit and integration testing with JUnit 5, Mockito, and Testcontainers (80% coverage): 35% fewer regressions, 40% faster code reviews."
+      ]
+    },
+    {
+      "title": "Consultant & Freelance Engineer",
+      "company": "B2B Startups & FinTech",
+      "period": "01/2022 - 02/2024",
+      "responsibilities": [
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (FinTech)</a> :</strong> Designed a Spring Boot microservices architecture processing $500k+/mo GMV via Stripe Connect. PCI-DSS compliance. Extensive use of Spring Security and Strategy/Factory patterns for multi-tenant management. SQL optimization (LATERAL JOINs): 60% latency reduction on 2M+ records.",
+        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (AI EdTech)</a> :</strong> Developed a secure AI platform (RGPD) with Spring Cloud Stream & Kafka for async RAG feedback processing. TTFT <200ms, 99.9% uptime.",
+        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (AI Coaching)</a> :</strong> High-performance backend using Project Loom (Virtual Threads) and Spring WebFlux managing 500+ concurrent real-time voice streams (<300ms latency)."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Itransition",
+      "period": "01/2021 - 12/2021",
+      "responsibilities": [
+        "Developed scalable micro-services with Java / Spring Cloud for Enterprise applications (50k+ requests/day).",
+        "Implemented resilience patterns via Resilience4j (Circuit Breaker, Retry, Timeout) with Clean Architecture. Structured code reviews and CI: 25% faster reviews, <2 post-merge defects/sprint."
+      ]
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "degree": "Engineering Degree (3 yrs)",
+      "institution": "BSUIR, Minsk",
+      "period": "2019–2022",
+      "description": "System programming (C, C++, Assembly), microprocessor architecture"
+    },
+    {
+      "degree": "Technician Degree (Bac+2)",
+      "institution": "Minsk State Higher College of Radiotechnics",
+      "period": "2015–2019"
+    }
+  ]
+}
