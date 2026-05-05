@@ -11,9 +11,9 @@
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
-    "title": "Ingénieur Backend • IA & Systèmes Distribués",
+    "title": "Développeur Backend • IA & Systèmes Distribués",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Engineer Backend spécialisé dans l'écosystème Node.js et l'orchestration d'architectures IA (LLM, RAG). Expert en modernisation de systèmes legacy et en conception de plateformes SaaS hautement scalables. Reconnu pour aligner l'excellence technique (haute disponibilité, optimisation des performances) avec les objectifs d'affaires, tout en garantissant la sécurité des données (RGPD, PCI-DSS) et en tirant vers le haut les équipes de développement.",
+    "professionalObjective": "Développeur Backend spécialisé Node.js et orchestration IA (LLM, RAG). Expert en modernisation de systèmes legacy et conception de plateformes SaaS scalables. Reconnu pour allier excellence technique (haute disponibilité, performance), conformité (RGPD, PCI-DSS) et impact business.",
     "status": "Basé à Grenoble (38) | Visa VPF – Libre accès au marché du travail"
   },
   "contact": [
@@ -101,7 +101,7 @@
   ],
   "experience": [
     {
-      "title": "Ingénieur Logiciel Backend & IA",
+      "title": "Développeur Logiciel Backend & IA",
       "company": "Basesystem",
       "period": "02/2024 - 04/2026",
       "responsibilities": [
@@ -115,7 +115,6 @@
       "company": "Startups B2B & FinTech",
       "period": "01/2022 - 02/2024",
       "responsibilities": [
-        "Conception et déploiement d'architectures complexes en tant qu'Architecte Solo ou en intégration avec des équipes internes.",
         "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace FinTech)</a> :</strong> Architecture d'une marketplace traitant +500k$ de GMV mensuel via Stripe Connect, avec intégration stricte des normes de sécurité PCI-DSS. Optimisation des requêtes SQL (LATERAL JOINs) réduisant la latence de 60% sur une base de +2 millions d'enregistrements.",
         "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech IA)</a> :</strong> Déploiement d'une plateforme IA sécurisée (sanitisation des données pour conformité RGPD) avec feedback RAG et exécuteur LLM résilient, assurant un Time-To-First-Token (TTFT) < 200ms et une disponibilité de 99,9%.",
         "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construction d'une plateforme de coaching vocal temps réel supportant plus de 500 flux audio simultanés avec une latence < 300ms, via l'intégration de la Web Audio API et Google Speech-to-Text."
@@ -126,15 +125,14 @@
       "company": "Itransition",
       "period": "01/2021 - 12/2021",
       "responsibilities": [
-        "Conception et déploiement de micro-services scalables (Node.js/PostgreSQL) pour des applications Enterprise (traitant +50k requêtes/jour), éliminant les goulots d'étranglement legacy et garantissant des mises en production continues sans interruption de service.",
-        "Standardisation des revues de code via une checklist structurée, réduisant le temps de review de 25% et limitant les retours post-merge à moins de 2 par sprint, accélérant ainsi les cycles de livraison globaux de 20%."
+        "Conception de micro-services scalables (Node.js/PostgreSQL) pour applications Enterprise (+50k requêtes/jour). Standardisation des revues de code : -25% temps de review, <2 défauts post-merge/sprint."
       ]
     }
   ],
   "projects": [],
   "education": [
     {
-      "degree": "Formation d'Ingénieur en Systèmes Mobiles Programmables (3 années validées)",
+      "degree": "Formation d'Développeur en Systèmes Mobiles Programmables (3 années validées)",
       "institution": "<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_d%27%C3%89tat_de_B%C3%A9larus_d%27informatique_et_de_radio%C3%A9lectronique\" target=\"_blank\">BSUIR (Université d'État d'Informatique et de Radioélectronique de Minsk)</a>",
       "period": "2019 – 2022",
       "description": "Focus Technique : Programmation système (C, C++, Assembleur), architecture des microprocesseurs et algorithmique fondamentale."

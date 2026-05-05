@@ -11,9 +11,9 @@
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
-    "title": "Ingénieur PHP • Laravel & Symfony",
+    "title": "Développeur PHP • Laravel & Symfony",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Ingénieur PHP spécialisé dans les écosystèmes Laravel/Symfony et l'orchestration d'architectures IA (LLM, RAG). Expert en modernisation de systèmes legacy et en conception de plateformes SaaS hautement scalables. Reconnu pour aligner l'excellence technique (haute disponibilité, optimisation des performances) avec les objectifs d'affaires, tout en garantissant la sécurité des données (RGPD, PCI-DSS) et en tirant vers le haut les équipes de développement.",
+    "professionalObjective": "Développeur PHP spécialisé dans les écosystèmes Laravel/Symfony et l'orchestration d'architectures IA (LLM, RAG). Expert en modernisation de systèmes legacy et en conception de plateformes SaaS hautement scalables. Reconnu pour aligner l'excellence technique (haute disponibilité, optimisation des performances) avec les objectifs d'affaires, tout en garantissant la sécurité des données (RGPD, PCI-DSS) et en tirant vers le haut les équipes de développement.",
     "status": "Basé à Grenoble (38) | Visa VPF – Libre accès au marché du travail"
   },
   "contact": [
@@ -102,7 +102,7 @@
   ],
   "experience": [
     {
-      "title": "Ingénieur PHP",
+      "title": "Développeur PHP",
       "company": "Basesystem",
       "period": "02/2024 - 04/2026",
       "responsibilities": [
@@ -135,7 +135,7 @@
   "projects": [],
   "education": [
     {
-      "degree": "Formation d'Ingénieur en Systèmes Mobiles Programmables (3 années validées)",
+      "degree": "Formation d'Développeur en Systèmes Mobiles Programmables (3 années validées)",
       "institution": "<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_d%27%C3%89tat_de_B%C3%A9larus_d%27informatique_et_de_radio%C3%A9lectronique\" target=\"_blank\">BSUIR (Université d'État d'Informatique et de Radioélectronique de Minsk)</a>",
       "period": "2019 – 2022",
       "description": "Focus Technique : Programmation système (C, C++, Assembleur), architecture des microprocesseurs et algorithmique fondamentale."

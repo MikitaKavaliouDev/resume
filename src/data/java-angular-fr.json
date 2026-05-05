@@ -11,9 +11,9 @@
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
-    "title": "Ingénieur Java & Angular • Spring Boot, TypeScript & Clean Architecture",
+    "title": "Développeur Java & Angular • Spring Boot, TypeScript & Clean Architecture",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Ingénieur logiciel spécialisé dans l'écosystème Java (Spring Boot, Java 21) et les frameworks frontend modernes (Angular, TypeScript). Expert en conception de systèmes distribués, migration de plateformes legacy et développement de solutions IA. Reconnu pour allier excellence technique, haute disponibilité et conformité (RGPD, PCI-DSS) avec un fort impact business.",
+    "professionalObjective": "Développeur logiciel spécialisé dans l'écosystème Java (Spring Boot, Java 21) et les frameworks frontend modernes (Angular, TypeScript). Expert en conception de systèmes distribués, migration de plateformes legacy et développement de solutions IA. Reconnu pour allier excellence technique, haute disponibilité et conformité (RGPD, PCI-DSS) avec un fort impact business.",
     "status": "Basé à Grenoble (38) | Visa VPF – Libre accès au marché du travail"
   },
   "contact": [
@@ -103,7 +103,7 @@
   ],
   "experience": [
     {
-      "title": "Ingénieur Logiciel",
+      "title": "Développeur Logiciel",
       "company": "Basesystem",
       "period": "02/2024 - 04/2026",
       "responsibilities": [
@@ -114,7 +114,7 @@
       ]
     },
     {
-      "title": "Consultant & Ingénieur Indépendant",
+      "title": "Consultant & Développeur Indépendant",
       "company": "Startups B2B & FinTech",
       "period": "01/2022 - 02/2024",
       "responsibilities": [
@@ -136,7 +136,7 @@
   "projects": [],
   "education": [
     {
-      "degree": "Formation Ingénieur (3 ans validés)",
+      "degree": "Formation Développeur (3 ans validés)",
       "institution": "BSUIR, Minsk",
       "period": "2019–2022",
       "description": "Programmation système (C, C++, Assembleur), architecture microprocesseurs"

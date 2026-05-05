@@ -11,9 +11,9 @@
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
-    "title": "Ingénieur IA • Orchestration LLM, RAG & Plateformes IA Scalables",
+    "title": "Développeur IA • Orchestration LLM, RAG & Plateformes IA Scalables",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Ingénieur IA spécialisé dans l'orchestration LLM, les architectures RAG et le développement de plateformes IA de production. Expert en construction de systèmes IA résilients avec inférence temps réel, IA vocale et pipelines de données sécurisés. Reconnu pour faire le pont entre la recherche IA et la production — livrant une latence d'inférence inférieure à 200ms, une disponibilité de 99,9% sur les services IA et un traitement des données conforme au RGPD à grande échelle.",
+    "professionalObjective": "Développeur IA spécialisé dans l'orchestration LLM, les architectures RAG et le développement de plateformes IA de production. Expert en construction de systèmes IA résilients avec inférence temps réel, IA vocale et pipelines de données sécurisés. Reconnu pour faire le pont entre la recherche IA et la production — livrant une latence d'inférence inférieure à 200ms, une disponibilité de 99,9% sur les services IA et un traitement des données conforme au RGPD à grande échelle.",
     "status": "Basé à Grenoble (38) | Visa VPF – Libre accès au marché du travail"
   },
   "contact": [
@@ -110,7 +110,7 @@
   ],
   "experience": [
     {
-      "title": "Ingénieur Logiciel",
+      "title": "Développeur Logiciel",
       "company": "Basesystem",
       "period": "02/2024 - 04/2026",
       "responsibilities": [
@@ -120,11 +120,11 @@
       ]
     },
     {
-      "title": "Consultant & Ingénieur IA Indépendant",
+      "title": "Consultant & Développeur IA Indépendant",
       "company": "Startups B2B & FinTech",
       "period": "01/2022 - 02/2024",
       "responsibilities": [
-        "Architecture et déploiement de plateformes IA en tant qu'Ingénieur Solo ou intégré aux équipes clients — livrant des services LLM de production avec des garanties strictes de sécurité et de latence.",
+        "Architecture et déploiement de plateformes IA en tant qu'Développeur Solo ou intégré aux équipes clients — livrant des services LLM de production avec des garanties strictes de sécurité et de latence.",
         "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech IA)</a> :</strong> Conception et déploiement d'une plateforme IA sécurisée avec feedback intelligent RAG, exécuteur LLM multi-fournisseur avec basculement automatique et pipelines de sanitisation des données pour conformité RGPD — maintenant un TTFT < 200ms et 99,9% de disponibilité.",
         "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construction d'une plateforme de coaching vocal temps réel supportant plus de 500 flux audio simultanés avec une latence < 300ms, intégrant Web Audio API et Google Speech-to-Text pour une interaction vocale à faible latence.",
         "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace FinTech)</a> :</strong> Architecture d'une marketplace full-stack traitant +500k$ de GMV mensuel via Stripe Connect, démontrant une capacité de conception système de bout en bout au-delà de l'IA."
@@ -143,7 +143,7 @@
   "projects": [],
   "education": [
     {
-      "degree": "Formation d'Ingénieur en Systèmes Mobiles Programmables (3 années validées)",
+      "degree": "Formation d'Développeur en Systèmes Mobiles Programmables (3 années validées)",
       "institution": "<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_d%27%C3%89tat_de_B%C3%A9larus_d%27informatique_et_de_radio%C3%A9lectronique\" target=\"_blank\">BSUIR (Université d'État d'Informatique et de Radioélectronique de Minsk)</a>",
       "period": "2019 – 2022",
       "description": "Focus Technique : Programmation système (C, C++, Assembleur), architecture des microprocesseurs et algorithmique fondamentale."
