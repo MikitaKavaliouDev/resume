@@ -13,7 +13,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "AI Engineer • LLM Orchestration, RAG & Scalable AI Platforms",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "AI Engineer specializing in LLM orchestration, RAG architectures, and production-grade AI platform engineering. Expert in building fault-tolerant AI systems with real-time inference, voice AI, and secure data pipelines. Recognized for bridging the gap between AI research and production — delivering sub-200ms inference latency, 99.9% uptime on AI services, and RGPD-compliant data handling at scale.",
+    "professionalObjective": "AI Engineer specializing in LLM orchestration, RAG architectures, and production-grade AI platform engineering. Experienced in building fault-tolerant AI systems with real-time inference, voice AI, and secure data pipelines. Recognized for bridging the gap between AI research and production — delivering sub-200ms inference latency, 99.9% uptime on AI services, and RGPD-compliant data handling at scale.",
     "status": "Based in Grenoble, France | VPF Visa – Free access to the French job market"
   },
   "contact": [
@@ -127,11 +127,11 @@
         "Architected and deployed AI platforms as a Solo Engineer or embedded with client teams — delivering production-grade LLM services with strict security and latency guarantees.",
         "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (AI EdTech)</a> :</strong> Designed and deployed a secure AI platform with RAG-based intelligent feedback, multi-provider LLM executor with automatic failover, and data sanitization pipelines for RGPD compliance — maintaining sub-200ms TTFT and 99.9% uptime.",
         "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (AI Coaching)</a> :</strong> Built a real-time AI voice coaching platform supporting 500+ concurrent audio streams with <300ms latency, integrating Web Audio API and Google Speech-to-Text for low-latency voice interaction.",
-        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (FinTech Marketplace)</a> :</strong> Architected a full-stack marketplace processing $500k+ monthly GMV via Stripe Connect, demonstrating end-to-end system design capability beyond AI."
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (SaaS Fitness Platform)</a> :</strong> Architected a full-stack platform connecting sports coaches with their clients, demonstrating end-to-end system design capability beyond AI."
       ]
     },
     {
-      "title": "Software Developer",
+      "title": "Software Developer (Part-time)",
       "company": "Itransition",
       "period": "01/2021 - 12/2021",
       "responsibilities": [

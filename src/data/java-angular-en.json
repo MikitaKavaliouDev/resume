@@ -13,7 +13,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Java & Angular Engineer • Spring Boot, TypeScript & Clean Architecture",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Software Engineer specializing in the Java ecosystem (Spring Boot, Java 21) and modern frontend frameworks (Angular, TypeScript). Expert in distributed systems design, legacy platform migration, and AI-powered solutions. Recognized for aligning engineering excellence, high availability, and compliance (RGPD, PCI-DSS) with strong business impact.",
+    "professionalObjective": "Software Engineer specializing in the Java ecosystem (Spring Boot, Java 21) and modern frontend frameworks (Angular, TypeScript). Experienced in distributed systems design, legacy platform migration, and AI-powered solutions. Recognized for aligning engineering excellence, high availability, and compliance (RGPD, PCI-DSS) with strong business impact.",
     "status": "Based in Grenoble, France | VPF Visa – Free access to the French job market"
   },
   "contact": [
@@ -55,7 +55,7 @@
     {
       "title": "Frontend & TypeScript",
       "skills": [
-        "TypeScript (Expert)",
+        "TypeScript",
         "Angular 15+ / RxJS / NgRx",
         "React 19 / Next.js 15",
         "HTML5 / CSS3 / Tailwind CSS"
@@ -73,9 +73,8 @@
       "title": "Architecture & Quality",
       "skills": [
         "REST & GraphQL API Design",
-        "Stripe Connect / Fintech Payments",
-        "CI/CD (GitHub Actions)",
-        "System Programming (C, C++, Assembly)"
+        "Stripe Connect / Payments & Subscriptions",
+        "CI/CD (GitHub Actions)"
       ]
     }
   ],
@@ -117,14 +116,14 @@
       "title": "Consultant & Freelance Engineer",
       "company": "B2B Startups & FinTech",
       "period": "01/2022 - 02/2024",
-      "responsibilities": [
-        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (FinTech)</a> :</strong> Designed a Spring Boot microservices architecture processing $500k+/mo GMV via Stripe Connect. PCI-DSS compliance. Extensive use of Spring Security and Strategy/Factory patterns for multi-tenant management. SQL optimization (LATERAL JOINs): 60% latency reduction on 2M+ records.",
+"responsibilities": [
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (SaaS Fitness Platform)</a> :</strong> Designed a Spring Boot microservices architecture for a platform connecting sports coaches with their clients. Implemented secure subscription management via Stripe Connect with PCI-DSS compliance. Extensive use of Spring Security and Strategy/Factory patterns for multi-tenant architecture. SQL optimization (LATERAL JOINs): 60% latency reduction on 2M+ records.",
         "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (AI EdTech)</a> :</strong> Developed a secure AI platform (RGPD) with Spring Cloud Stream & Kafka for async RAG feedback processing. TTFT <200ms, 99.9% uptime.",
         "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (AI Coaching)</a> :</strong> High-performance backend using Project Loom (Virtual Threads) and Spring WebFlux managing 500+ concurrent real-time voice streams (<300ms latency)."
       ]
     },
     {
-      "title": "Software Developer",
+      "title": "Software Developer (Part-time)",
       "company": "Itransition",
       "period": "01/2021 - 12/2021",
       "responsibilities": [
@@ -139,7 +138,7 @@
       "degree": "Engineering Degree (3 yrs)",
       "institution": "BSUIR, Minsk",
       "period": "2019–2022",
-      "description": "System programming (C, C++, Assembly), microprocessor architecture"
+      "description": "Microprocessor architecture"
     },
     {
       "degree": "Technician Degree (Bac+2)",

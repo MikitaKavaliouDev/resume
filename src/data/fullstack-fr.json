@@ -13,7 +13,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Développeur Full-Stack • Next.js, TypeScript & IA",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Développeur Full-Stack spécialisé dans l'écosystème React (Next.js 15) et l'orchestration d'architectures IA (LLM, RAG). Expert en modernisation de systèmes legacy et en conception de plateformes SaaS hautement scalables. Reconnu pour aligner l'excellence technique (haute disponibilité, optimisation des performances) avec les objectifs d'affaires, tout en garantissant la sécurité des données (RGPD, PCI-DSS) et en tirant vers le haut les équipes de développement.",
+    "professionalObjective": "Développeur Full-Stack spécialisé dans l'écosystème React (Next.js 15) et l'orchestration d'architectures IA (LLM, RAG). Expérimenté en modernisation de systèmes legacy et en conception de plateformes SaaS hautement scalables. Reconnu pour aligner l'excellence technique (haute disponibilité, optimisation des performances) avec les objectifs d'affaires, tout en garantissant la sécurité des données (RGPD, PCI-DSS) et en tirant vers le haut les équipes de développement.",
     "status": "Basé à Grenoble (38) | Visa VPF – Libre accès au marché du travail"
   },
   "contact": [
@@ -131,13 +131,13 @@
       "period": "01/2022 - 02/2024",
       "responsibilities": [
         "Conception et déploiement d'architectures complexes en tant qu'Architecte Solo ou en intégration avec des équipes internes.",
-        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Marketplace FinTech)</a> :</strong> Architecture d'une marketplace traitant +500k$ de GMV mensuel via Stripe Connect, avec intégration stricte des normes de sécurité PCI-DSS. Optimisation des requêtes SQL (LATERAL JOINs) réduisant la latence de 60% sur une base de +2 millions d'enregistrements.",
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Plateforme SaaS Fitness)</a> :</strong> Architecture d'une marketplace interactive (Next.js, Leaflet, Tailwind CSS) reliant entraîneurs sportifs et clients. Implémentation de paiements sécurisés via Stripe Connect avec conformité PCI-DSS stricte.",
         "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech IA)</a> :</strong> Déploiement d'une plateforme IA sécurisée (sanitisation des données pour conformité RGPD) avec feedback RAG et exécuteur LLM résilient, assurant un Time-To-First-Token (TTFT) < 200ms et une disponibilité de 99,9%.",
         "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construction d'une plateforme de coaching vocal temps réel supportant plus de 500 flux audio simultanés avec une latence < 300ms, via l'intégration de la Web Audio API et Google Speech-to-Text."
       ]
     },
     {
-      "title": "Développeur Full-Stack",
+      "title": "Développeur Full-Stack (Temps partiel)",
       "company": "Itransition",
       "period": "01/2021 - 12/2021",
       "responsibilities": [

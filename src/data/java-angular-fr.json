@@ -13,7 +13,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Développeur Java & Angular • Spring Boot, TypeScript & Clean Architecture",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Développeur logiciel spécialisé dans l'écosystème Java (Spring Boot, Java 21) et les frameworks frontend modernes (Angular, TypeScript). Expert en conception de systèmes distribués, migration de plateformes legacy et développement de solutions IA. Reconnu pour allier excellence technique, haute disponibilité et conformité (RGPD, PCI-DSS) avec un fort impact business.",
+    "professionalObjective": "Développeur logiciel spécialisé dans l'écosystème Java (Spring Boot, Java 21) et les frameworks frontend modernes (Angular, TypeScript). Expérimenté en conception de systèmes distribués, migration de plateformes legacy et développement de solutions IA. Reconnu pour allier excellence technique, haute disponibilité et conformité (RGPD, PCI-DSS) avec un fort impact business.",
     "status": "Basé à Grenoble (38) | Visa VPF – Libre accès au marché du travail"
   },
   "contact": [
@@ -55,7 +55,7 @@
     {
       "title": "Frontend & TypeScript",
       "skills": [
-        "TypeScript (Expert)",
+        "TypeScript",
         "Angular 15+ / RxJS / NgRx",
         "React 19 / Next.js 15",
         "HTML5 / CSS3 / Tailwind CSS"
@@ -73,9 +73,8 @@
       "title": "Architecture & Qualité",
       "skills": [
         "Design d'API REST & GraphQL",
-        "Stripe Connect / Paiements Fintech",
-        "CI/CD (GitHub Actions)",
-        "Programmation Système (C, C++, Assembleur)"
+        "Stripe Connect / Paiements & Abonnements",
+        "CI/CD (GitHub Actions)"
       ]
     }
   ],
@@ -103,7 +102,7 @@
   ],
   "experience": [
     {
-      "title": "Développeur Logiciel",
+      "title": "Développeur Logiciel (Temps partiel)",
       "company": "Basesystem",
       "period": "02/2024 - 04/2026",
       "responsibilities": [
@@ -118,13 +117,13 @@
       "company": "Startups B2B & FinTech",
       "period": "01/2022 - 02/2024",
       "responsibilities": [
-        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (FinTech)</a> :</strong> Conception d'une architecture microservices Spring Boot traitant +500k$/mois GMV via Stripe Connect. Mise en conformité PCI-DSS. Utilisation intensive de Spring Security et de patterns Strategy/Factory pour le multi-tenant. Optimisation SQL (LATERAL JOINs) : -60% latence sur 2M+ enregistrements.",
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Plateforme SaaS Fitness)</a> :</strong> Conception d'une architecture microservices (Spring Boot) pour une plateforme de coaching reliant entraîneurs sportifs et clients. Implémentation d'un système de gestion d'abonnements sécurisé via Stripe Connect avec conformité PCI-DSS. Utilisation intensive de Spring Security et de patterns Strategy/Factory pour l'architecture multi-tenant. Optimisation SQL (LATERAL JOINs) : -60% latence sur 2M+ enregistrements.",
         "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech IA)</a> :</strong> Développement d'une plateforme IA sécurisée (RGPD) avec Spring Cloud Stream & Kafka pour le traitement asynchrone des feedbacks RAG. TTFT <200ms, disponibilité 99,9%.",
         "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Backend haute performance utilisant Project Loom (Virtual Threads) et Spring WebFlux pour la gestion de +500 flux vocaux simultanés en temps réel (latence <300ms)."
       ]
     },
     {
-      "title": "Développeur Logiciel",
+      "title": "Développeur Logiciel (Temps partiel)",
       "company": "Itransition",
       "period": "01/2021 - 12/2021",
       "responsibilities": [
@@ -139,7 +138,7 @@
       "degree": "Formation Développeur (3 ans validés)",
       "institution": "BSUIR, Minsk",
       "period": "2019–2022",
-      "description": "Programmation système (C, C++, Assembleur), architecture microprocesseurs"
+      "description": "Architecture microprocesseurs"
     },
     {
       "degree": "Technicien Supérieur (Bac+2)",

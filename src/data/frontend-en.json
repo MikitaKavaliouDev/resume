@@ -13,7 +13,7 @@
     "name": "MIKITA KAVALIOU",
     "title": "Front End Engineer • React & Next.js",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Front-End Engineer specializing in the React ecosystem (Next.js 15) and AI architecture orchestration (LLM, RAG). Expert in legacy system modernization and design of highly scalable SaaS platforms. Recognized for aligning technical excellence (high availability, performance optimization) with business objectives, while ensuring data security (RGPD, PCI-DSS) and elevating development teams.",
+    "professionalObjective": "Front-End Engineer specializing in the React ecosystem (Next.js 15) and AI architecture orchestration (LLM, RAG). Experienced in legacy system modernization and design of highly scalable SaaS platforms. Recognized for aligning technical excellence (high availability, performance optimization) with business objectives, while ensuring data security (RGPD, PCI-DSS) and elevating development teams.",
     "status": "Based in Grenoble, France | VPF Visa – Free access to the French job market"
   },
   "contact": [
@@ -119,13 +119,13 @@
       "period": "01/2022 - 02/2024",
       "responsibilities": [
         "Designed and deployed complex architectures as a Solo Architect or integrated with internal teams.",
-        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (FinTech Marketplace)</a> :</strong> Architected an interactive marketplace frontend (Next.js, Leaflet, Tailwind CSS) processing $500k+ monthly GMV via Stripe Connect, with strict PCI-DSS security compliance and complex data visualizations.",
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (SaaS Fitness Platform)</a> :</strong> Architected an interactive marketplace frontend (Next.js, Leaflet, Tailwind CSS) connecting sports coaches with their clients. Implemented secure payment processing via Stripe Connect with strict PCI-DSS security compliance and data visualizations.",
         "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (AI EdTech)</a> :</strong> Deployed a secure AI platform (data sanitization for RGPD compliance) with RAG-based feedback and a fault-tolerant LLM executor, maintaining a sub-200ms Time To First Token (TTFT) and 99.9% uptime.",
         "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (AI Coaching)</a> :</strong> Built a real-time AI voice coaching platform supporting 500+ concurrent audio streams with <300ms latency, via Web Audio API and Google Speech-to-Text integration."
       ]
     },
     {
-      "title": "Front End Web Developer",
+      "title": "Front End Web Developer (Part-time)",
       "company": "Itransition",
       "period": "01/2021 - 12/2021",
       "responsibilities": [
