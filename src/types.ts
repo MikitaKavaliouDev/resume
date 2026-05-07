@@ -6,6 +6,7 @@ export interface PersonalInfo {
   image: string;
   professionalObjective: string;
   status: string;
+  pitch?: string;
 }
 
 export interface Contact {

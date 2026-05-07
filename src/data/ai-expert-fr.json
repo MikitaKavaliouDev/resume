@@ -6,25 +6,21 @@
     "status": "STATUT",
     "objective": "RÉSUMÉ EXÉCUTIF",
     "experience": "EXPÉRIENCE PROFESSIONNELLE",
-    "projects": "PROJETS IA & INGÉNIERIE SÉLECTIONNÉS",
+    "projects": "PROJETS SÉLECTIONNÉS",
     "education": "FORMATION"
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
-    "title": "Développeur IA • Orchestration LLM, RAG & Plateformes IA Scalables",
+    "title": "Ingénieur IA Python • Architectures RAG, LLM & Systèmes Scalables",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Développeur IA spécialisé dans l'orchestration LLM, les architectures RAG et le développement de plateformes IA de production. Expérimenté en construction de systèmes IA résilients avec inférence temps réel, IA vocale et pipelines de données sécurisés. Reconnu pour faire le pont entre la recherche IA et la production — livrant une latence d'inférence inférieure à 200ms, une disponibilité de 99,9% sur les services IA et un traitement des données conforme au RGPD à grande échelle.",
-    "status": "Basé à Grenoble (38) | Visa VPF – Libre accès au marché du travail"
+    "professionalObjective": "Ingénieur IA Backend spécialisé en écosystème Python, orchestration LLM et architectures RAG. Expert en conception d'API résilientes (FastAPI), inférence temps réel (TTFT < 200ms) et IA vocale. Fait le pont entre recherche IA et ingénierie avec 99,9% de disponibilité et une forte conformité RGPD.",
+    "status": "Basé à Grenoble (38), France | Visa VPF – Libre accès (Aucun parrainage requis)",
+    "pitch": "Bonjour, je m'appelle Mikita. Je suis Ingénieur IA et Backend, spécialisé dans l'écosystème Python. Mon cœur de métier, c'est de concevoir des architectures RAG et d'orchestrer des modèles LLM pour créer des applications scalables. J'ai par exemple mis en place des moteurs vocaux en temps réel et des routeurs multi-LLM pour garantir une haute disponibilité. Je suis installé à Grenoble avec un visa VPF me permettant de travailler sans restriction, et je suis passionné par l'intégration de l'IA dans des produits fiables et sécurisés."
   },
   "contact": [
     {
       "text": "+33 7 53 12 40 25",
       "svgPath": "<path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"></path>"
-    },
-    {
-      "text": "mikita-kavaliou.online",
-      "url": "https://mikita-kavaliou.online",
-      "svgPath": "<path d=\"M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z\"></path>"
     },
     {
       "text": "mikita.kavaliou@outlook.fr",
@@ -43,57 +39,42 @@
   ],
   "skills": [
     {
-      "title": "Ingénierie LLM & IA",
+      "title": "Python & IA",
       "skills": [
-        "Orchestration LLM (Gemini, Groq, OpenAI)",
-        "Architectures RAG & Bases Vectorielles",
-        "Prompt Engineering & Fine-Tuning",
-        "Sécurité IA & Sanitisation des Données",
-        "Passerelle LLM & Stratégies de Basculement",
-        "Optimisation des Coûts Token & Limitation"
+        "Python (Avancé), FastAPI, LangChain, LlamaIndex, RAG, Bases Vectorielles",
+        "LLMs (OpenAI, Gemini, Groq, Open-Source), Prompt Engineering"
       ]
     },
     {
-      "title": "Applications IA & Systèmes Temps Réel",
+      "title": "Temps Réel & Audio",
       "skills": [
-        "IA Vocale / Speech-to-Text (Google STT)",
-        "Streaming Audio Temps Réel (Web Audio API)",
-        "Traitement de Flux Concurrents (500+)",
-        "Observabilité IA & Détection de Dérive",
-        "Routage LLM Multi-Fournisseur",
-        "Prometheus / Grafana"
+        "WebSockets, IA Vocale (Google STT, Whisper)",
+        "Web Audio API, Traitement de flux concurrents (500+)"
       ]
     },
     {
-      "title": "Backend & Plateforme",
+      "title": "Cloud, Data & Ops",
       "skills": [
-        "Node.js / TypeScript",
-        "Python (Pipelines de Données, Services IA)",
-        "PostgreSQL (Optimisation de Requêtes)",
-        "Redis (Cache, Gestion de Sessions)",
-        "Docker & AWS (EC2, Lambda, S3)",
-        "CI/CD (GitHub Actions, Cloud Run)"
+        "PostgreSQL, Redis, Docker, AWS (EC2, Lambda)",
+        "CI/CD (GitHub Actions), Conformité RGPD"
       ]
     },
     {
-      "title": "Architecture & Qualité",
+      "title": "Architecture",
       "skills": [
-        "Clean Architecture / Design Orienté Événements",
-        "Design d'API RESTful & GraphQL",
-        "Conformité RGPD & PCI-DSS",
-        "Playwright / Tests E2E",
-        "Programmation Système (C, C++ — Temps Réel)"
+        "Clean Architecture, Microservices, API RESTful",
+        "Playwright (E2E), Node.js/TypeScript"
       ]
     }
   ],
   "languages": [
     {
       "name": "Anglais",
-      "level": "C1 (Professionnel technique courant)"
+      "level": "C1 (Technique)"
     },
     {
       "name": "Français",
-      "level": "B2 (Opérationnel)"
+      "level": "B2/Courant"
     },
     {
       "name": "Polonais",
@@ -110,49 +91,48 @@
   ],
   "experience": [
     {
-      "title": "Développeur Logiciel",
+      "title": "Développeur Logiciel Backend & Architecte",
       "company": "Basesystem",
       "period": "02/2024 - 04/2026",
       "responsibilities": [
-        "Orchestration de la migration d'un monolithe PHP legacy vers une stack TypeScript moderne (Node.js, Prisma, Redis), livrant une plateforme scalable capable de 1 200 RPS avec 99,95% de disponibilité via auto-scaling AWS — établissant la fondation technique pour l'intégration ultérieure de fonctionnalités IA.",
-        "Conception et déploiement de services backend résilients avec architecture événementielle, générant une réduction de 30% des temps de réponse API via l'optimisation de requêtes et le cache distribué pour 200k+ utilisateurs actifs.",
-        "Conduite de l'adoption de la Clean Architecture et TypeScript pour une équipe de 3 développeurs, mise en place d'une couverture de tests E2E (Playwright, Vitest) à 80% des parcours critiques, réduisant les régressions de 35% et accélérant les revues de code de 40%."
+        "Refonte architecturale de systèmes backend ultra-scalables, posant les fondations pour l'intégration de microservices IA Python.",
+        "Migration d'un monolithe vers une architecture distribuée (1 200 req/sec, 99,95% de disponibilité via AWS auto-scaling). Réduction de 30% des temps de réponse via optimisation PostgreSQL et cache Redis pour 200k+ utilisateurs.",
+        "Implémentation de la Clean Architecture avec 80% de couverture de tests E2E, réduisant les régressions de 35%.",
+        "Stack: Python, FastAPI, Node.js, TypeScript, PostgreSQL, Redis, AWS, Docker"
       ]
     },
     {
-      "title": "Consultant & Développeur IA Indépendant",
+      "title": "Ingénieur IA Python & Consultant",
       "company": "Startups B2B & FinTech",
       "period": "01/2022 - 02/2024",
       "responsibilities": [
-        "Architecture et déploiement de plateformes IA en tant qu'Développeur Solo ou intégré aux équipes clients — livrant des services LLM de production avec des garanties strictes de sécurité et de latence.",
-        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech IA)</a> :</strong> Conception et déploiement d'une plateforme IA sécurisée avec feedback intelligent RAG, exécuteur LLM multi-fournisseur avec basculement automatique et pipelines de sanitisation des données pour conformité RGPD — maintenant un TTFT < 200ms et 99,9% de disponibilité.",
-        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construction d'une plateforme de coaching vocal temps réel supportant plus de 500 flux audio simultanés avec une latence < 300ms, intégrant Web Audio API et Google Speech-to-Text pour une interaction vocale à faible latence.",
-        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Plateforme SaaS Fitness)</a> :</strong> Architecture d'une plateforme full-stack reliant entraîneurs sportifs et clients, démontrant une capacité de conception système de bout en bout au-delà de l'IA."
+        "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech IA)</a>:</strong> Backend Python avec architecture RAG avancée et routeur LLM multi-fournisseur avec basculement automatique. Pipelines de sanitisation des données (RGPD). Maintien TTFT < 200ms.",
+        "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a>:</strong> Moteur vocal temps réel gérant +500 flux audio simultanés (latence < 300ms), intégration Speech-to-Text et WebSockets.",
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT</a>:</strong> Architecture full-stack de bout-en-bout d'une plateforme SaaS B2C (System Design avancé).",
+        "Stack: Python, FastAPI, OpenAI, LangChain, Google STT, WebSockets, Bases Vectorielles"
       ]
     },
     {
-      "title": "Développeur Logiciel (Temps partiel)",
+      "title": "Développeur Logiciel",
       "company": "Itransition",
       "period": "01/2021 - 12/2021",
       "responsibilities": [
-        "Conception et déploiement de micro-services scalables (Node.js/PostgreSQL) pour des applications Enterprise (traitant +50k requêtes/jour), appliquant les principes Clean Architecture avec des déploiements de production sans interruption de service.",
-        "Standardisation des revues de code via des checklists structurées, réduisant le temps de review de 25% et limitant les défauts post-merge à moins de 2 par sprint."
+        "Conception de micro-services scalables (Enterprise, 50k+ req/jour) avec déploiements zéro-downtime. Standardisation des revues de code, réduisant le temps de review de 25%.",
+        "Stack: Node.js, TypeScript, PostgreSQL, Docker"
       ]
     }
   ],
   "projects": [],
   "education": [
     {
-      "degree": "Formation d'Développeur en Systèmes Mobiles Programmables (3 années validées)",
-      "institution": "<a href=\"https://fr.wikipedia.org/wiki/Universit%C3%A9_d%27%C3%89tat_de_B%C3%A9larus_d%27informatique_et_de_radio%C3%A9lectronique\" target=\"_blank\">BSUIR (Université d'État d'Informatique et de Radioélectronique de Minsk)</a>",
-      "period": "2019 – 2022",
-      "description": "Focus Technique : Programmation système (C, C++, Assembleur), architecture des microprocesseurs et algorithmique fondamentale."
+      "degree": "Bac+3 / Licence Systèmes Mobiles Programmables | BSUIR (Minsk)",
+      "institution": "Belarusian State University of Informatics and Radioelectronics",
+      "period": "2019 – 2022"
     },
     {
-      "degree": "Diplôme de Technicien (Bac+2) | Radio-électronique",
-      "institution": "<a href=\"https://en.wikipedia.org/wiki/Minsk_Radioengineering_College\" target=\"_blank\">Minsk State Higher College of Radiotechnics</a>",
-      "period": "2015 – 2019",
-      "description": "Focus Technique : Électronique analogique/numérique et programmation bas niveau (C)."
+      "degree": "Bac+2 / DUT Radio-électronique | Minsk State Higher College",
+      "institution": "Minsk State Higher College of Radiotechnics",
+      "period": "2015 – 2019"
     }
   ]
 }

@@ -1,19 +1,21 @@
 import { renderCvView } from './components/CvView';
 import { renderLetterView } from './components/LetterView';
+import { renderPitchView } from './components/PitchView';
 import { cvDatabase } from './data';
 import { CVData, LanguageCode, CVDatabase } from './types';
 
 const uiTranslations = {
-  fr: { cv: 'CV', letter: 'Lettre de Motivation' },
-  en: { cv: 'CV', letter: 'Cover Letter' },
-  pl: { cv: 'CV', letter: 'List Motywacyjny' },
-  de: { cv: 'Lebenslauf', letter: 'Anschreiben' },
+  fr: { cv: 'CV', letter: 'Lettre de Motivation', pitch: 'Pitch' },
+  en: { cv: 'CV', letter: 'Cover Letter', pitch: 'Pitch' },
+  pl: { cv: 'CV', letter: 'List Motywacyjny', pitch: 'Pitch' },
+  de: { cv: 'Lebenslauf', letter: 'Anschreiben', pitch: 'Pitch' },
 };
 
 export class App {
   private container: HTMLElement;
   private navCV: HTMLElement | null;
   private navLetter: HTMLElement | null;
+  private navPitch: HTMLElement | null;
   private cvData: CVDatabase;
   private currentLanguage: LanguageCode = 'fr';
   private currentCvId: string;
@@ -22,6 +24,7 @@ export class App {
     this.container = container;
     this.navCV = document.getElementById('nav-cv');
     this.navLetter = document.getElementById('nav-letter');
+    this.navPitch = document.getElementById('nav-pitch');
     
     // Always load directly from our combined index
     this.cvData = cvDatabase;
@@ -40,6 +43,7 @@ export class App {
     window.addEventListener('hashchange', this.handleNavigation.bind(this));
     this.navCV?.addEventListener('click', () => window.location.hash = 'cv');
     this.navLetter?.addEventListener('click', () => window.location.hash = 'letter');
+    this.navPitch?.addEventListener('click', () => window.location.hash = 'pitch');
   }
   
   private initLanguageSwitcher() {
@@ -93,6 +97,7 @@ export class App {
   private updateNavText() {
     if (this.navCV) this.navCV.textContent = uiTranslations[this.currentLanguage].cv;
     if (this.navLetter) this.navLetter.textContent = uiTranslations[this.currentLanguage].letter;
+    if (this.navPitch) this.navPitch.textContent = uiTranslations[this.currentLanguage].pitch;
   }
 
   private updateCvData = (newCvData: CVData) => {
@@ -131,10 +136,17 @@ export class App {
       this.container.appendChild(renderCvView(currentCvData, this.currentLanguage, this.updateCvData));
       this.navCV?.classList.add('active');
       this.navLetter?.classList.remove('active');
+      this.navPitch?.classList.remove('active');
     } else if (hash === '#letter') {
       this.container.appendChild(renderLetterView(this.currentLanguage, this.cvData, this.currentCvId));
       this.navLetter?.classList.add('active');
       this.navCV?.classList.remove('active');
+      this.navPitch?.classList.remove('active');
+    } else if (hash === '#pitch') {
+      this.container.appendChild(renderPitchView(currentCvData, this.currentLanguage));
+      this.navPitch?.classList.add('active');
+      this.navCV?.classList.remove('active');
+      this.navLetter?.classList.remove('active');
     }
   }
 }
