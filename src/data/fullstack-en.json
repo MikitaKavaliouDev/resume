@@ -11,9 +11,9 @@
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
-    "title": "Full-Stack Engineer • Next.js, TypeScript & AI",
+    "title": "Full-Stack Engineer • Node.js, Angular, React & NestJS",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Full-Stack Engineer specializing in the React ecosystem (Next.js 15) and AI architecture orchestration (LLM, RAG). Experienced in legacy system modernization and design of highly scalable SaaS platforms. Recognized for aligning technical excellence (high availability, performance optimization) with business objectives, while ensuring data security (RGPD, PCI-DSS) and elevating development teams.",
+    "professionalObjective": "Full-Stack Engineer specializing in Node.js, Angular, React and NestJS ecosystems and AI architecture orchestration (LLM, RAG). Experienced in legacy system modernization and design of highly scalable SaaS platforms. Recognized for aligning technical excellence (high availability, performance optimization) with business objectives, while ensuring data security (RGPD, PCI-DSS) and elevating development teams.",
     "status": "Based in Grenoble, France | VPF Visa – Free access to the French job market"
   },
   "contact": [
@@ -46,20 +46,20 @@
       "title": "Frontend & Core",
       "skills": [
         "React 19",
-        "Next.js 15 (App Router)",
+        "Angular 17+",
         "TypeScript",
         "Tailwind CSS",
         "Zustand",
-        "TanStack Query"
+        "Material UI"
       ]
     },
     {
       "title": "AI & Backend",
       "skills": [
+        "NestJS",
+        "Node.js",
         "LLMs (Gemini, Groq)",
         "RAG",
-        "Prompt Engineering",
-        "Node.js",
         "PostgreSQL",
         "Prisma",
         "Redis",
@@ -120,7 +120,7 @@
       "company": "Basesystem",
       "period": "02/2024 - 04/2026",
       "responsibilities": [
-        "Led the migration of a legacy PHP monolith to a modern stack (Next.js 15, Node.js, Prisma, Redis), supporting peak loads of 1,200 Requests Per Second (RPS) with AWS auto-scaling guaranteeing 99.95% availability.",
+        "Led the migration of a legacy PHP monolith to a modern stack (Node.js, Angular, React, NestJS, Prisma, Redis), supporting peak loads of 1,200 Requests Per Second (RPS) with AWS auto-scaling guaranteeing 99.95% availability.",
         "Radically optimized Frontend performance (Zustand, TanStack Query) by eliminating unnecessary re-renders, achieving a 30% reduction in load time and boosting conversion by 5% for 200k+ Monthly Active Users.",
         "Spearheaded the transition to TypeScript and Clean Architecture for a team of 3 developers. Deployed an E2E test suite (Playwright) covering 80% of critical paths, reducing regressions by 35% and accelerating code reviews by 40%."
       ]
@@ -131,7 +131,7 @@
       "period": "01/2022 - 02/2024",
       "responsibilities": [
         "Designed and deployed complex architectures as a Solo Architect or integrated with internal teams.",
-        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (SaaS Fitness Platform)</a> :</strong> Architected an interactive marketplace (Next.js, Leaflet, Tailwind CSS) connecting sports coaches with their clients. Implemented secure payment processing via Stripe Connect with strict PCI-DSS security compliance.",
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (SaaS Fitness Platform)</a> :</strong> Architected an interactive marketplace (Angular, React, Node.js, Leaflet, Tailwind CSS) connecting sports coaches with their clients. Implemented secure payment processing via Stripe Connect with strict PCI-DSS security compliance.",
         "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (AI EdTech)</a> :</strong> Deployed a secure AI platform (data sanitization for RGPD compliance) with RAG-based feedback and a fault-tolerant LLM executor, maintaining a sub-200ms Time To First Token (TTFT) and 99.9% uptime.",
         "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (AI Coaching)</a> :</strong> Built a real-time AI voice coaching platform supporting 500+ concurrent audio streams with <300ms latency, via Web Audio API and Google Speech-to-Text integration."
       ]

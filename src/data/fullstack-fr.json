@@ -11,11 +11,11 @@
   },
   "personalInfo": {
     "name": "MIKITA KAVALIOU",
-    "title": "Développeur Full-Stack • Next.js, TypeScript & IA",
+    "title": "Développeur Full-Stack • Node.js, Angular, React & NestJS",
     "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/122200152-YhxIS7i2EtNGRFTwhs3Z9fnxfJwHBP.jpeg",
-    "professionalObjective": "Développeur Full-Stack spécialisé dans l'écosystème React (Next.js 15) et l'orchestration d'architectures IA (LLM, RAG). Expérimenté en modernisation de systèmes legacy et en conception de plateformes SaaS hautement scalables. Reconnu pour aligner l'excellence technique (haute disponibilité, optimisation des performances) avec les objectifs d'affaires, tout en garantissant la sécurité des données (RGPD, PCI-DSS) et en tirant vers le haut les équipes de développement.",
+    "professionalObjective": "Développeur Full-Stack spécialisé dans les écosystèmes Node.js, Angular, React et NestJS, ainsi que l'orchestration d'architectures IA (LLM, RAG). Expérimenté en modernisation de systèmes legacy et en conception de plateformes SaaS hautement scalables. Reconnu pour aligner l'excellence technique (haute disponibilité, optimisation des performances) avec les objectifs d'affaires, tout en garantissant la sécurité des données (RGPD, PCI-DSS) et en tirant vers le haut les équipes de développement.",
     "status": "Basé à Grenoble (38) | Visa VPF – Libre accès au marché du travail",
-    "pitch": "Bonjour, je suis Mikita. J'ai environ 5 ans d'expérience en tant que développeur, avec une forte expertise sur les écosystèmes JavaScript et TypeScript, notamment Next.js et Node.js. Récemment, j'ai piloté la migration d'un système legacy vers une architecture moderne capable de gérer un fort trafic. J'ai aussi conçu des plateformes SaaS qui intègrent des fonctionnalités d'IA avancées. Je vis à Grenoble, j'ai un visa VPF qui me donne un accès libre au marché du travail, et je cherche aujourd'hui un nouveau défi pour allier technique et impact métier."
+    "pitch": "Bonjour, je suis Mikita. J'ai environ 5 ans d'expérience en tant que développeur, avec une forte expertise sur les écosystèmes JavaScript et TypeScript, notamment Node.js, Angular, React et NestJS. Récemment, j'ai piloté la migration d'un système legacy vers une architecture moderne capable de gérer un fort trafic. J'ai aussi conçu des plateformes SaaS qui intègrent des fonctionnalités d'IA avancées. Je vis à Grenoble, j'ai un visa VPF qui me donne un accès libre au marché du travail, et je cherche aujourd'hui un nouveau défi pour allier technique et impact métier."
   },
   "contact": [
     {
@@ -47,20 +47,20 @@
       "title": "Frontend & Core",
       "skills": [
         "React 19",
-        "Next.js 15 (App Router)",
+        "Angular 17+",
         "TypeScript",
         "Tailwind CSS",
         "Zustand",
-        "TanStack Query"
+        "Material UI"
       ]
     },
     {
       "title": "IA & Backend",
       "skills": [
+        "NestJS",
+        "Node.js",
         "LLM (Gemini, Groq)",
         "RAG",
-        "Prompt Engineering",
-        "Node.js",
         "PostgreSQL",
         "Prisma",
         "Redis",
@@ -121,7 +121,7 @@
       "company": "Basesystem",
       "period": "02/2024 - 04/2026",
       "responsibilities": [
-        "Pilotage de la migration d'un monolithe PHP legacy vers une stack moderne (Next.js 15, Node.js, Prisma, Redis), supportant des pics à 1 200 requêtes/seconde (RPS) avec un auto-scaling AWS garantissant 99,95% de disponibilité.",
+        "Pilotage de la migration d'un monolithe PHP legacy vers une stack moderne (Node.js, Angular, React, NestJS, Prisma, Redis), supportant des pics à 1 200 requêtes/seconde (RPS) avec un auto-scaling AWS garantissant 99,95% de disponibilité.",
         "Optimisation radicale des performances Frontend (Zustand, TanStack Query) en éliminant les re-rendus superflus, générant une réduction de 30% du temps de chargement et boostant la conversion de 5% pour 200k+ utilisateurs actifs.",
         "Conduite de la transition vers TypeScript et la Clean Architecture pour une équipe de 3 développeurs. Déploiement d'une suite de tests E2E (Playwright) couvrant 80% des parcours critiques, réduisant les régressions de 35% et accélérant les revues de code de 40%."
       ]
@@ -132,7 +132,7 @@
       "period": "01/2022 - 02/2024",
       "responsibilities": [
         "Conception et déploiement d'architectures complexes en tant qu'Architecte Solo ou en intégration avec des équipes internes.",
-        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Plateforme SaaS Fitness)</a> :</strong> Architecture d'une marketplace interactive (Next.js, Leaflet, Tailwind CSS) reliant entraîneurs sportifs et clients. Implémentation de paiements sécurisés via Stripe Connect avec conformité PCI-DSS stricte.",
+        "<strong><a href=\"https://ziro.fit\" target=\"_blank\">ZIRO.FIT (Plateforme SaaS Fitness)</a> :</strong> Architecture d'une marketplace interactive (Angular, React, Node.js, Leaflet, Tailwind CSS) reliant entraîneurs sportifs et clients. Implémentation de paiements sécurisés via Stripe Connect avec conformité PCI-DSS stricte.",
         "<strong><a href=\"https://lexity.app\" target=\"_blank\">Lexity (EdTech IA)</a> :</strong> Déploiement d'une plateforme IA sécurisée (sanitisation des données pour conformité RGPD) avec feedback RAG et exécuteur LLM résilient, assurant un Time-To-First-Token (TTFT) < 200ms et une disponibilité de 99,9%.",
         "<strong><a href=\"https://interly.app\" target=\"_blank\">Interly (Coaching IA)</a> :</strong> Construction d'une plateforme de coaching vocal temps réel supportant plus de 500 flux audio simultanés avec une latence < 300ms, via l'intégration de la Web Audio API et Google Speech-to-Text."
       ]
