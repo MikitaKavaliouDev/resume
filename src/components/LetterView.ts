@@ -186,12 +186,6 @@ export const renderLetterView = (lang: LanguageCode, allCvData: CVDatabase, curr
   };
 
   const originalTitle = document.title;
-  const langNameMap: Record<LanguageCode, string> = {
-      fr: "Français",
-      en: "English",
-      pl: "Polski",
-      de: "Deutsch"
-  };
   const docNameMap: Record<LanguageCode, { cv: string, letter: string }> = {
       fr: { cv: 'CV', letter: 'Lettre de Motivation' },
       en: { cv: 'CV', letter: 'Cover Letter' },
@@ -215,7 +209,7 @@ export const renderLetterView = (lang: LanguageCode, allCvData: CVDatabase, curr
         docName = `${docNameMap[lang].cv} & ${docNameMap[lang].letter}`;
     }
     
-    document.title = `${name} - ${langNameMap[lang]} - ${title} - ${docName}`;
+    document.title = `${name} - ${lang.toUpperCase()} - ${currentProfile.name} - ${docName}`;
 
     window.addEventListener('afterprint', () => {
         document.title = originalTitle;

@@ -9,7 +9,7 @@ const translations = {
     de: { print: 'Lebenslauf drucken', templates: 'Vorlagen', review: 'Lebenslauf prüfen', modalTitle: 'Verbesserungsvorschläge', apply: 'Anwenden', applying: 'Anwenden...', cancel: 'Abbrechen', reviewError: 'Fehler bei der Überprüfung.', applyError: 'Fehler beim Anwenden.' }
 };
 
-export const renderCvView = (data: CVData, lang: LanguageCode, onUpdate: (newCvData: CVData) => void): HTMLElement => {
+export const renderCvView = (data: CVData, lang: LanguageCode, profileName: string, onUpdate: (newCvData: CVData) => void): HTMLElement => {
   const element = document.createElement('div');
   element.id = 'cv-view';
   const t = translations[lang];
@@ -111,15 +111,9 @@ export const renderCvView = (data: CVData, lang: LanguageCode, onUpdate: (newCvD
 
   const attachListeners = () => {
     const originalTitle = document.title;
-    const langNameMap: Record<LanguageCode, string> = {
-        fr: "Français",
-        en: "English",
-        pl: "Polski",
-        de: "Deutsch"
-    };
 
     element.querySelector('#print-cv-btn')?.addEventListener('click', () => {
-        const newTitle = `${data.personalInfo.name} - ${langNameMap[lang]} - ${data.personalInfo.title} - CV`;
+        const newTitle = `${data.personalInfo.name} - ${lang.toUpperCase()} - ${profileName} - CV`;
         document.title = newTitle;
         
         window.addEventListener('afterprint', () => {

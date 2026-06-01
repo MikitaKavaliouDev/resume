@@ -133,7 +133,7 @@ export class App {
     if (!currentCvData) return;
 
     if (hash === '#cv') {
-      this.container.appendChild(renderCvView(currentCvData, this.currentLanguage, this.updateCvData));
+      this.container.appendChild(renderCvView(currentCvData, this.currentLanguage, currentProfile.name, this.updateCvData));
       this.navCV?.classList.add('active');
       this.navLetter?.classList.remove('active');
       this.navPitch?.classList.remove('active');
