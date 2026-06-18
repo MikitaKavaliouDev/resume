@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mikita Kavaliou — Développeur Fullstack Symfony & React</title>
+  <style>
+    /* === STYLE ATS OPTIMISÉ POUR UNIQUE PAGE A4 === */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #f4f6f8;
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    .ats-container {
+      width: 210mm;
+      height: 297mm;
+      padding: 10mm 12mm;
+      background-color: #fff;
+      color: #000;
+      font-size: 9.5pt;
+      line-height: 1.35;
+      box-sizing: border-box;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .ats-main-header {
+      text-align: center;
+      margin-bottom: 6px;
+    }
+
+    .ats-main-header h1 {
+      margin: 0;
+      font-size: 16pt;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+
+    .ats-contact {
+      margin: 2px 0;
+      font-size: 9.5pt;
+    }
+
+    .ats-contact a {
+      color: #000;
+      text-decoration: none;
+      border-bottom: 1px dotted #000;
+    }
+
+    .ats-subtitle {
+      font-weight: bold;
+      font-size: 11pt;
+      margin-top: 3px;
+      text-transform: uppercase;
+    }
+
+    .ats-location {
+      font-size: 9.5pt;
+      margin-top: 2px;
+      font-style: italic;
+    }
+
+    .ats-section {
+      margin-top: 8px;
+      margin-bottom: 4px;
+    }
+
+    .ats-section h2 {
+      font-size: 10.5pt;
+      text-transform: uppercase;
+      border-bottom: 1px solid #000;
+      margin: 3px 0 4px 0;
+      padding-bottom: 1px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+
+    .ats-section p {
+      margin: 0 0 3px 0;
+      text-align: justify;
+    }
+
+    .ats-item {
+      margin-bottom: 5px;
+    }
+
+    .ats-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1px;
+      font-weight: bold;
+      font-size: 9.5pt;
+    }
+
+    .ats-list {
+      margin: 1px 0;
+      padding-left: 15px;
+    }
+
+    .ats-list li {
+      margin-bottom: 1px;
+      text-align: justify;
+    }
+
+    .ats-container a {
+      color: #000;
+      text-decoration: underline;
+    }
+
+    .skill-line {
+      margin-bottom: 2px;
+    }
+
+    .skill-line strong {
+      font-weight: bold;
+    }
+
+    /* Règles d'impression pour format A4 */
+    @media print {
+      @page {
+        size: A4;
+        margin: 0;
+      }
+      body {
+        background: none;
+        padding: 0;
+      }
+      .ats-container {
+        padding: 10mm 12mm;
+        width: 210mm;
+        height: 297mm;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="ats-container">
+
+    <!-- EN-TÊTE -->
+    <header class="ats-main-header">
+      <h1>Mikita Kavaliou</h1>
+      <div class="ats-contact">
+        <a href="tel:+33753124025">+33 7 53 12 40 25</a> |
+        <a href="mailto:mikita.kavaliou@outlook.fr">mikita.kavaliou@outlook.fr</a> |
+        <a href="https://mikita-kavaliou.online" target="_blank">mikita-kavaliou.online</a> |
+        <a href="https://linkedin.com/in/mikita-kavaliou" target="_blank">linkedin.com/in/mikita-kavaliou</a> |
+        <a href="https://github.com/MikitaKavaliouDev" target="_blank">github.com/MikitaKavaliouDev</a>
+      </div>
+      <div class="ats-subtitle">Développeur Fullstack Symfony &amp; React (Expert IA)</div>
+      <div class="ats-location">Région Auvergne-Rhône-Alpes (Mobile pour 2j/semaine de présentiel à Lyon) | Visa VPF (Aucun parrainage requis)</div>
+    </header>
+
+    <!-- RÉSUMÉ PROFESSIONNEL -->
+    <section class="ats-section">
+      <h2>RÉSUMÉ EXÉCUTIF</h2>
+      <p>Ingénieur Logiciel Fullstack avec plus de 5 ans d'expérience, spécialisé dans la maintenance, l'évolution et le déploiement d’architectures web couplant des backends robustes en <strong>PHP / Symfony (6 &amp; 7)</strong> et des frontends modernes en <strong>React / Next.js</strong>. Expert dans l’<strong>initialisation de projets IA</strong> (RAG, routeurs multi-LLM/gateways, optimisation d'inférence) et l'intégration de systèmes de <strong>tracking et mesure de performance</strong> (suivi de télémétrie de requêtes, analytics d'usage). Rompu aux bonnes pratiques de tests (PHPUnit, Playwright), de versioning Git et de livraison continue en production (CI/CD, Docker, AWS).</p>
+    </section>
+
+    <!-- COMPÉTENCES TECHNIQUES -->
+    <section class="ats-section">
+      <h2>COMPÉTENCES TECHNIQUES</h2>
+
+      <p class="skill-line"><strong>Backend PHP / Symfony (Confirmé) :</strong> PHP 8.2/8.3, Symfony 6 &amp; 7, API Platform, Doctrine ORM, Laravel 11, patterns de conception (SOLID, DDD, Clean Architecture), PHPUnit, Pest</p>
+
+      <p class="skill-line"><strong>Frontend React / Next.js (Confirmé) :</strong> React 19, Next.js 15 (App Router), TypeScript, Tailwind CSS, gestion d'état (Zustand, Redux), requêtage asynchrone (TanStack Query), Jest, Playwright</p>
+
+      <p class="skill-line"><strong>Intégration d'Outils IA :</strong> Initialisation de projets via API d'IA et modèles de langage (OpenAI, Anthropic, Gemini, Groq), architectures RAG complexes, routeurs d'API multi-LLM (OpenRouter), Prompt Engineering</p>
+
+      <p class="skill-line"><strong>Tracking, Mesure &amp; Observabilité :</strong> Suivi de télémétrie IA (Langfuse, LangSmith - mesure de latence TTFT, suivi de coûts de jetons), monitoring d'erreurs en production (Sentry), tracking d'utilisation (PostHog, Google Analytics, Chart.js), Redis (caching de performances), PostgreSQL (Raw SQL &amp; optimization)</p>
+
+      <p class="skill-line"><strong>Bonnes Pratiques &amp; DevOps :</strong> Git / GitLab, CI/CD (GitHub Actions), Docker, AWS (Auto-scaling, EC2, S3, RDS, Lambda), conformité de sécurité des données (RGPD, PCI-DSS)</p>
+    </section>
+
+    <!-- EXPÉRIENCE PROFESSIONNELLE -->
+    <section class="ats-section">
+      <h2>EXPÉRIENCE PROFESSIONNELLE</h2>
+
+      <div class="ats-item">
+        <div class="ats-header">
+          <span>DÉVELOPPEUR FULLSTACK SYMFONY &amp; REACT | Basesystem</span>
+          <span>02/2024 – 04/2026</span>
+        </div>
+        <ul class="ats-list">
+          <li><strong>Évolution &amp; Maintenance :</strong> Piloté l'évolution de fonctionnalités clés en concevant des API découplées sous <strong>Symfony 7</strong> (PHP) et des interfaces responsives modernes avec <strong>React / Next.js</strong>, supportant jusqu'à 1 200 RPS via AWS.</li>
+          <li><strong>Mise en Production &amp; CI/CD :</strong> Assuré le cycle complet de livraison en production via Git et des pipelines CI/CD automatisés (GitHub Actions, Docker), maintenant une disponibilité de service de 99,95%.</li>
+          <li><strong>Système de Tracking &amp; Mesure :</strong> Intégré des outils de supervision des métriques clés (taux de réussite des requêtes, latence globale) et optimisé l'accès aux bases PostgreSQL par mise en cache Redis, réduisant de 30% les temps de réponse pour 200k+ utilisateurs.</li>
+          <li><strong>Qualité &amp; Bonnes Pratiques :</strong> Encadré une squad de 3 développeurs sur l'adoption des concepts SOLID et la mise en œuvre de tests unitaires et E2E (PHPUnit, Playwright, Jest, couverture >80%), limitant de 35% les anomalies en production.</li>
+        </ul>
+      </div>
+
+      <div class="ats-item">
+        <div class="ats-header">
+          <span>CONSULTANT &amp; DÉVELOPPEUR INDÉPENDANT | Startups B2B &amp; FinTech</span>
+          <span>01/2022 – 02/2024</span>
+        </div>
+        <ul class="ats-list">
+          <li><strong>Lexity (EdTech IA) — Initialisation IA &amp; Tracking de performance :</strong> Développé sous <strong>React</strong> et Node.js un assistant d'apprentissage intelligent. Conception d'un pipeline RAG asynchrone sécurisé RGPD. Mis en œuvre un système de <strong>tracking de télémétrie précis</strong> via LangSmith pour mesurer la latence applicative (TTFT &lt; 200ms) et l'analyse de dérive des LLM.</li>
+          <li><strong>ZIRO.FIT (SaaS Fitness &amp; FinTech) — React / Next.js :</strong> Conçu de bout en bout une marketplace sécurisée (conformité PCI-DSS via Stripe Connect). Intégration d'un tableau de bord de tracking analytique mesurant l'engagement des utilisateurs et l'évolution des abonnements (Chart.js, <strong>Next.js/React</strong>). Optimisation de requêtes PostgreSQL (LATERAL JOINs), réduisant de 60% la latence sur 2M+ de lignes.</li>
+          <li><strong>Interly (AI Coaching vocal) — Temps réel :</strong> Développé un module de capture de flux audio en temps réel couplant Web Audio API, WebSockets et Google STT/Whisper pour fournir un retour analytique de livraison vocale sous 300ms de latence.</li>
+        </ul>
+      </div>
+
+      <div class="ats-item">
+        <div class="ats-header">
+          <span>DÉVELOPPEUR LOGICIEL FULLSTACK | Itransition</span>
+          <span>01/2021 – 12/2021</span>
+        </div>
+        <ul class="ats-list">
+          <li><strong>Services Web &amp; Interfaces :</strong> Développé des microservices et composants d'interface réutilisables sous PHP/Laravel et React pour des applications de gestion à forte fréquentation (50k+ requêtes quotidiennes).</li>
+          <li><strong>Contrôle Qualité :</strong> Standardisé les processus de revue de code via Git, améliorant la vélocité d'intégration continue de 25% et maintenant les régressions post-merge sous la barre des 2 par sprint.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FORMATION -->
+    <section class="ats-section">
+      <h2>FORMATION</h2>
+
+      <div class="ats-item" style="margin-bottom: 2px;">
+        <div class="ats-header">
+          <span>Licence/Degree en Systèmes Mobiles Programmables (3 ans validés) | BSUIR, Minsk</span>
+          <span>2019–2022</span>
+        </div>
+        <p style="margin-top: 1px; font-size: 8.5pt;">Formation scientifique axée sur l'algorithmique fondamentale, l'architecture des processeurs et la programmation système (C, C++).</p>
+      </div>
+
+      <div class="ats-item" style="margin-bottom: 2px;">
+        <div class="ats-header">
+          <span>Diplôme de Technicien (Bac+2) en Radio-Électronique | Minsk Radioengineering College</span>
+          <span>2015–2019</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- LANGUES -->
+    <section class="ats-section">
+      <h2>LANGUES</h2>
+      <p><strong>Français :</strong> B2 (Opérationnel technique, résidant en région Auvergne-Rhône-Alpes) &nbsp;|&nbsp; <strong>Anglais :</strong> C1 (Courant professionnel) &nbsp;|&nbsp; <strong>Polonais :</strong> C2 (Natif) &nbsp;|&nbsp; <strong>Russe :</strong> Maternel</p>
+    </section>
+
+  </div>
+</body>
+</html>

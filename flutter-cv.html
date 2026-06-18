@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mikita Kavaliou — Développeur Mobile Flutter &amp; Fullstack</title>
+  <style>
+    /* === STYLE ATS OPTIMISÉ POUR 1 PAGE A4 === */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #f4f6f8;
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    .ats-container {
+      width: 210mm;
+      height: 297mm;
+      padding: 6mm 12mm;
+      background-color: #fff;
+      color: #000;
+      font-size: 9.5pt;
+      line-height: 1.35;
+      box-sizing: border-box;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .ats-main-header {
+      text-align: center;
+      margin-bottom: 6px;
+    }
+
+    .ats-main-header h1 {
+      margin: 0;
+      font-size: 16pt;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+
+    .ats-contact {
+      margin: 1px 0;
+      font-size: 9.5pt;
+    }
+
+    .ats-contact a {
+      color: #000;
+      text-decoration: none;
+      border-bottom: 1px dotted #000;
+    }
+
+    .ats-subtitle {
+      font-weight: bold;
+      font-size: 11pt;
+      margin-top: 2px;
+      text-transform: uppercase;
+    }
+
+    .ats-location {
+      font-size: 9.5pt;
+      margin-top: 1px;
+      font-style: italic;
+    }
+
+    .ats-section {
+      margin-top: 6px;
+      margin-bottom: 4px;
+    }
+
+    .ats-section h2 {
+      font-size: 10.5pt;
+      text-transform: uppercase;
+      border-bottom: 1px solid #000;
+      margin: 2px 0 3px 0;
+      padding-bottom: 1px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+
+    .ats-section p {
+      margin: 0 0 3px 0;
+      text-align: justify;
+    }
+
+    .ats-item {
+      margin-bottom: 4px;
+    }
+
+    .ats-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1px;
+      font-weight: bold;
+      font-size: 9.5pt;
+    }
+
+    .ats-list {
+      margin: 1px 0;
+      padding-left: 15px;
+    }
+
+    .ats-list li {
+      margin-bottom: 1px;
+      text-align: justify;
+    }
+
+    .ats-container a {
+      color: #1a365d;
+      text-decoration: underline;
+    }
+
+    .skill-line {
+      margin-bottom: 1px;
+    }
+
+    .skill-line strong {
+      font-weight: bold;
+    }
+
+    /* Styles pour l'impression */
+    @media print {
+      @page {
+        size: A4;
+        margin: 0;
+      }
+      body {
+        background: none;
+        padding: 0;
+      }
+      .ats-container {
+        padding: 6mm 12mm;
+        width: 210mm;
+        height: 297mm;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="ats-container">
+
+    <!-- EN-TÊTE -->
+    <header class="ats-main-header">
+      <h1>Mikita Kavaliou</h1>
+      <div class="ats-contact">
+        <a href="tel:+33753124025">+33 7 53 12 40 25</a> |
+        <a href="mailto:mikita.kavaliou@outlook.fr">mikita.kavaliou@outlook.fr</a> |
+        <a href="https://mikita-kavaliou.online" target="_blank">mikita-kavaliou.online</a> |
+        <a href="https://linkedin.com/in/mikita-kavaliou" target="_blank">linkedin.com/in/mikita-kavaliou</a> |
+        <a href="https://github.com/MikitaKavaliouDev" target="_blank">github.com/MikitaKavaliouDev</a>
+      </div>
+      <div class="ats-subtitle">Développeur Mobile Flutter &amp; Fullstack (Dart / TypeScript)</div>
+      <div class="ats-location">Grenoble (38) | Titulaire d'un Visa VPF – Libre accès au marché du travail (sans parrainage)</div>
+    </header>
+
+    <!-- RÉSUMÉ EXÉCUTIF -->
+    <section class="ats-section">
+      <h2>RÉSUMÉ EXÉCUTIF</h2>
+      <p>Développeur Mobile et Fullstack avec 3 ans d'expérience, spécialisé dans l'écosystème Flutter/Dart et les architectures mobiles performantes (iOS &amp; Android). Expert dans l'implémentation de gestions d'état modernes (BLoC, Riverpod), la communication avec du code natif (MethodChannels) et la publication sur les stores. Solide socle backend (APIs REST/GraphQL, Node.js) facilitant l'intégration de fonctionnalités complexes (paiement in-app Stripe, audio temps réel et synchronisation offline-first). Basé à Grenoble.</p>
+    </section>
+
+    <!-- COMPÉTENCES TECHNIQUES -->
+    <section class="ats-section">
+      <h2>COMPÉTENCES TECHNIQUES</h2>
+
+      <p class="skill-line"><strong>Mobile &amp; Flutter :</strong> Dart, Flutter SDK, BLoC, Riverpod, MethodChannels (intégration native Android Kotlin &amp; iOS), Isar, Hive, animations, responsive UI/UX</p>
+
+      <p class="skill-line"><strong>Backend &amp; APIs :</strong> Node.js, Spring Boot, REST APIs, GraphQL, WebSockets, Firebase, Supabase, PostgreSQL, Redis</p>
+
+      <p class="skill-line"><strong>DevOps &amp; Stores :</strong> Déploiement Google Play Store &amp; Apple App Store, Fastlane, CI/CD (Codemagic, GitHub Actions), Git, Docker</p>
+
+      <p class="skill-line"><strong>Qualité &amp; Architecture :</strong> Clean Architecture, SOLID, DDD, Tests automatisés (Flutter Test, Mockito), Playwright E2E</p>
+    </section>
+
+    <!-- EXPÉRIENCE PROFESSIONNELLE -->
+    <section class="ats-section">
+      <h2>EXPÉRIENCE PROFESSIONNELLE</h2>
+
+      <div class="ats-item">
+        <div class="ats-header">
+          <span>DÉVELOPPEUR MOBILE FLUTTER &amp; FULLSTACK | Basesystem</span>
+          <span>02/2024 – 04/2026</span>
+        </div>
+        <ul class="ats-list">
+          <li><strong>Refonte Flutter :</strong> Conception et développement de la nouvelle application mobile multi-plateforme (iOS/Android) sous Flutter/Dart. Migration d'un socle existant vers Clean Architecture et gestion d'état BLoC (gain de stabilité de l'UI, -30% d'anomalies de rendu).</li>
+          <li><strong>Performance &amp; Intégration Native :</strong> Optimisation des performances de rendu graphiques à 60 FPS et interfaçage avec des APIs natives du système (MethodChannels sous Android Kotlin / Java), améliorant l'accès aux capteurs matériels.</li>
+          <li><strong>Qualité &amp; Livraison continue :</strong> Écriture de tests unitaires et de composants (Flutter Test, Mockito) couvrant 80% des parcours critiques. Automatisation du pipeline de build et soumission automatisée vers Google Play Console et App Store Connect.</li>
+        </ul>
+      </div>
+
+      <div class="ats-item">
+        <div class="ats-header">
+          <span>CONSULTANT &amp; DÉVELOPPEUR MOBILE INDÉPENDANT | Startups IA B2B &amp; FinTech</span>
+          <span>04/2023 – 02/2024</span>
+        </div>
+        <ul class="ats-list">
+          <li><strong>ZIRO.FIT (SaaS Fitness) — App Flutter Offline-First :</strong> Conception de l'application mobile de coaching, implémentant une base locale Isar pour un accès hors-ligne fluide et une synchronisation transactionnelle asynchrone avec le serveur. Paiements Stripe In-App sécurisés.</li>
+          <li><strong>Interly (AI Coaching) — Temps réel :</strong> Intégration de captures de flux audio temps réel dans l'application mobile via WebSockets et API audio native (latence globale de transmission &lt;300ms pour analyse par un LLM).</li>
+          <li><strong>Lexity — UI/UX Multi-résolution :</strong> Développement d'interfaces adaptatives pour smartphones et tablettes, avec mise en cache locale performante des fichiers multimédias complexes via Hive.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FORMATION -->
+    <section class="ats-section">
+      <h2>FORMATION</h2>
+
+      <div class="ats-item">
+        <div class="ats-header">
+          <span>Licence Systèmes Mobiles Programmables | BSUIR, Minsk</span>
+          <span>2019–2022</span>
+        </div>
+        <p style="margin-top: 1px; font-size: 8.5pt;">Programmation mobile, architectures des processeurs embarqués, algorithmique fondamentale, programmation système (C, C++).</p>
+      </div>
+
+      <div class="ats-item">
+        <div class="ats-header">
+          <span>Diplôme de Technicien (Bac+2) en Radio-Électronique | Minsk Radioengineering College</span>
+          <span>2015–2019</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- LANGUES -->
+    <section class="ats-section">
+      <h2>LANGUES</h2>
+      <p><strong>Français :</strong> B2 (Opérationnel, basé à Grenoble) &nbsp;|&nbsp; <strong>Anglais :</strong> C1 (Professionnel technique courant) &nbsp;|&nbsp; <strong>Polonais :</strong> Natif &nbsp;|&nbsp; <strong>Russe :</strong> Maternel</p>
+    </section>
+
+  </div>
+</body>
+</html>
