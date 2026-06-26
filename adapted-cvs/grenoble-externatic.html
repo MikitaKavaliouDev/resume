@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mikita Kavaliou — Ingénieur Études &amp; Développement Logiciel Sénior</title>
+  <style>
+    /* === STYLE ATS OPTIMISÉ POUR UNIQUE PAGE A4 === */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #f4f6f8;
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    .ats-container {
+      width: 210mm;
+      height: 297mm;
+      padding: 8mm 12mm;
+      background-color: #fff;
+      color: #000;
+      font-size: 9.3pt;
+      line-height: 1.35;
+      box-sizing: border-box;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .ats-main-header {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    .ats-main-header h1 {
+      margin: 0;
+      font-size: 15pt;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+
+    .ats-contact {
+      margin: 2px 0;
+      font-size: 9.3pt;
+    }
+
+    .ats-contact a {
+      color: #000;
+      text-decoration: none;
+      border-bottom: 1px dotted #000;
+    }
+
+    .ats-subtitle {
+      font-weight: bold;
+      font-size: 10.5pt;
+      margin-top: 3px;
+      text-transform: uppercase;
+    }
+
+    .ats-location {
+      font-size: 9.3pt;
+      margin-top: 2px;
+      font-style: italic;
+    }
+
+    .ats-section {
+      margin-top: 6px;
+      margin-bottom: 3px;
+    }
+
+    .ats-section h2 {
+      font-size: 10pt;
+      text-transform: uppercase;
+      border-bottom: 1px solid #000;
+      margin: 2px 0 3px 0;
+      padding-bottom: 1px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+
+    .ats-section p {
+      margin: 0 0 2px 0;
+      text-align: justify;
+    }
+
+    .ats-item {
+      margin-bottom: 4px;
+    }
+
+    .ats-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1px;
+      font-weight: bold;
+      font-size: 9.3pt;
+    }
+
+    .ats-list {
+      margin: 1px 0;
+      padding-left: 15px;
+    }
+
+    .ats-list li {
+      margin-bottom: 1px;
+      text-align: justify;
+    }
+
+    .ats-container a {
+      color: #000;
+      text-decoration: underline;
+    }
+
+    .skill-line {
+      margin-bottom: 1px;
+    }
+
+    .skill-line strong {
+      font-weight: bold;
+    }
+
+    /* Règles d'impression pour format A4 */
+    @media print {
+      @page {
+        size: A4;
+        margin: 0;
+      }
+      body {
+        background: none;
+        padding: 0;
+      }
+      .ats-container {
+        padding: 8mm 12mm;
+        width: 210mm;
+        height: 297mm;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="ats-container">
+
+    <!-- EN-TÊTE -->
+    <header class="ats-main-header">
+      <h1>Mikita Kavaliou</h1>
+      <div class="ats-contact">
+        <a href="tel:+33753124025">07 53 12 40 25</a> |
+        <a href="mailto:mikita.kavaliou@outlook.fr">mikita.kavaliou@outlook.fr</a> |
+        <a href="https://mikita-kavaliou.online" target="_blank">mikita-kavaliou.online</a> |
+        <a href="https://linkedin.com/in/mikita-kavaliou" target="_blank">linkedin.com/in/mikita-kavaliou</a>
+      </div>
+      <div class="ats-subtitle">Ingénieur d'Études &amp; Développement Logiciel Sénior</div>
+      <div class="ats-location">Grenoble (38), France (Disponible pour un rythme hybride) | Visa VPF (Accès libre au travail)</div>
+    </header>
+
+    <!-- RÉSUMÉ PROFESSIONNEL -->
+    <section class="ats-section">
+      <h2>RÉSUMÉ PROFESSIONNEL</h2>
+      <p>Ingénieur d'études et développement logiciel fort de plus de 5 ans d'expérience post-diplôme, spécialisé dans la conception d'architectures web robustes et le traitement de données techniques complexes. Doté d'une double assise scientifique en **Radio-Électronique** et en **programmation système**, j'interviens de manière polyvalente sur le développement back-end en **PHP** et en **Python/C++** ainsi que sur la création d'interfaces dynamiques en **JavaScript/React**. Curieux, autonome et rigoureux, j'apprécie évoluer au sein de structures à taille humaine où la technicité des projets, la simulation numérique, la qualité du code (tests unitaires) et la proximité avec l'ingénierie des données priment.</p>
+    </section>
+
+    <!-- COMPÉTENCES TECHNIQUES -->
+    <section class="ats-section">
+      <h2>COMPÉTENCES TECHNIQUES</h2>
+
+      <p class="skill-line"><strong>Développement Back-End :</strong> PHP (7.x / 8.x, programmation orientée objet native sans framework, Symfony, Laravel), Python (FastAPI, modules de traitement de données, PyTest), C/C++ (programmation système et bas niveau), Node.js</p>
+
+      <p class="skill-line"><strong>Développement Front-End :</strong> JavaScript (ES6+), React, TypeScript, SASS / CSS3, HTML5, intégration de composants</p>
+
+      <p class="skill-line"><strong>Bases de Données :</strong> Relationnel &amp; NoSQL (MySQL, MariaDB, MongoDB, PostgreSQL, Oracle), requêtage complexe et indexation</p>
+
+      <p class="skill-line"><strong>Qualité &amp; Architecture :</strong> Tests unitaires et d'intégration (PHPUnit, Jest, PyTest), Clean Architecture, patrons de conception (SOLID, DRY), revues de code rigoureuses, Git</p>
+
+      <p class="skill-line"><strong>DevOps &amp; Outils :</strong> GitLab, GitLab CI, Docker, déploiement sur environnements cloud conteneurisés (AWS, Azure)</p>
+
+      <p class="skill-line"><strong>Affinité Scientifique :</strong> Analyse et exploitation de données hétérogènes, principes de simulation numérique et de modélisation mathématique issus d'un cursus initial d'ingénierie physique et électronique</p>
+
+      <p class="skill-line"><strong>Langues :</strong> Anglais professionnel fluide (C1 - documentation technique et échanges) | Français (B2 - opérationnel)</p>
+    </section>
+
+    <!-- EXPÉRIENCE PROFESSIONNELLE -->
+    <section class="ats-section">
+      <h2>EXPÉRIENCE PROFESSIONNELLE</h2>
+
+      <div class="ats-item">
+        <div class="ats-header">
+          <span>INGÉNIEUR DÉVELOPPEUR SÉNIOR | Basesystem</span>
+          <span>02/2024 – 04/2026</span>
+        </div>
+        <ul class="ats-list">
+          <li><strong>Développement PHP &amp; Modernisation :</strong> Conception, évolution et maintenance d'applications métiers et d'APIs transactionnelles en PHP natif orienté objet et frameworks, manipulant d'importants flux de données (AWS, PostgreSQL).</li>
+          <li><strong>Interfaces interactives React :</strong> Développement de composants et d'interfaces riches en JavaScript et React pour restituer des visualisations de données complexes et de monitoring à des équipes opérationnelles.</li>
+          <li><strong>Optimisation bases de données :</strong> Amélioration des performances d'indexation et des structures relationnelles (MySQL/MariaDB), réduisant de 30% les temps de traitement d'historiques.</li>
+          <li><strong>Qualité &amp; Tests :</strong> Rédaction de suites de tests unitaires et d'intégration automatisés (PHPUnit, Jest) et participation active aux choix d'architectures logicielles au sein de l'équipe de R&amp;D.</li>
+          <li><strong>Documentation :</strong> Rédaction de spécifications fonctionnelles et de documentations d'architecture technique du système.</li>
+        </ul>
+      </div>
+
+      <div class="ats-item">
+        <div class="ats-header">
+          <span>CONSULTANT S.I. &amp; DÉVELOPPEUR EMBARQUÉ / DATA | Startups B2B &amp; FinTech</span>
+          <span>01/2022 – 02/2024</span>
+        </div>
+        <ul class="ats-list">
+          <li><strong>Lexity (EdTech IA) — Traitement Python &amp; NoSQL :</strong> Conception et intégration asynchrone de flux de données complexes en Python et modélisation NoSQL sous MongoDB. Optimisation de pipelines de calcul de données.</li>
+          <li><strong>Interly — Interfaces de signaux en temps réel :</strong> Développement de passerelles d'acquisition de signaux audio et d'interfaçages basés sur des protocoles de communication sécurisés (TLS/SSL) en mariant Python et React.</li>
+          <li><strong>Ziro.Fit — Analyse de performances de bases de données :</strong> Optimisation de requêtes SQL (PostgreSQL, Oracle) par le biais de jointures complexes (LATERAL JOINs), optimisant de 60% le chargement d'historiques massifs (2M+ lignes).</li>
+        </ul>
+      </div>
+
+      <div class="ats-item">
+        <div class="ats-header">
+          <span>DÉVELOPPEUR LOGICIEL (Temps partiel) | Itransition</span>
+          <span>01/2021 – 12/2021</span>
+        </div>
+        <ul class="ats-list">
+          <li><strong>Méthodes Agiles &amp; Intégration :</strong> Conception et maintenance d'APIs au sein d'une équipe agile pluridisciplinaire. Réalisation de revues de code rigoureuses, automatisation de pipelines d'intégration (GitLab CI, Docker) et réduction de 25% des délais de review.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FORMATION -->
+    <section class="ats-section">
+      <h2>FORMATION</h2>
+
+      <div class="ats-item" style="margin-bottom: 2px;">
+        <div class="ats-header">
+          <span>Licence en Systèmes Mobiles Programmables | BSUIR, Minsk</span>
+          <span>2019–2022</span>
+        </div>
+        <p style="margin-top: 1px; font-size: 8.5pt;"><strong>Génie Logiciel &amp; Informatique Industrielle :</strong> Modélisation mathématique, traitement algorithmique des données, architectures de processeurs et programmation système (C, C++, Assembleur).</p>
+      </div>
+
+      <div class="ats-item" style="margin-bottom: 2px;">
+        <div class="ats-header">
+          <span>Diplôme de Technicien en Radio-Électronique (Bac+2) | Minsk Radioengineering College</span>
+          <span>2015–2019</span>
+        </div>
+        <p style="margin-top: 1px; font-size: 8.5pt;"><strong>Rigueur scientifique &amp; Mesures physiques :</strong> Électronique analogique et numérique, instrumentation, traitement de signaux, interfaçage matériel et programmation bas niveau (C).</p>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>

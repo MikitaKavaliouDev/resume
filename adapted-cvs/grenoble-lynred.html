@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mikita Kavaliou — Ingénieur Test &amp; Industrialisation</title>
+  <style>
+    /* === STYLE ATS OPTIMISÉ POUR UNIQUE PAGE A4 === */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #f4f6f8;
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    .ats-container {
+      width: 210mm;
+      height: 297mm;
+      padding: 8mm 12mm;
+      background-color: #fff;
+      color: #000;
+      font-size: 9.3pt;
+      line-height: 1.35;
+      box-sizing: border-box;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .ats-main-header {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    .ats-main-header h1 {
+      margin: 0;
+      font-size: 15pt;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+
+    .ats-contact {
+      margin: 2px 0;
+      font-size: 9.3pt;
+    }
+
+    .ats-contact a {
+      color: #000;
+      text-decoration: none;
+      border-bottom: 1px dotted #000;
+    }
+
+    .ats-subtitle {
+      font-weight: bold;
+      font-size: 10.5pt;
+      margin-top: 3px;
+      text-transform: uppercase;
+    }
+
+    .ats-location {
+      font-size: 9.3pt;
+      margin-top: 2px;
+      font-style: italic;
+    }
+
+    .ats-section {
+      margin-top: 6px;
+      margin-bottom: 3px;
+    }
+
+    .ats-section h2 {
+      font-size: 10pt;
+      text-transform: uppercase;
+      border-bottom: 1px solid #000;
+      margin: 2px 0 3px 0;
+      padding-bottom: 1px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+
+    .ats-section p {
+      margin: 0 0 2px 0;
+      text-align: justify;
+    }
+
+    .ats-item {
+      margin-bottom: 4px;
+    }
+
+    .ats-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1px;
+      font-weight: bold;
+      font-size: 9.3pt;
+    }
+
+    .ats-list {
+      margin: 1px 0;
+      padding-left: 15px;
+    }
+
+    .ats-list li {
+      margin-bottom: 1px;
+      text-align: justify;
+    }
+
+    .ats-container a {
+      color: #000;
+      text-decoration: underline;
+    }
+
+    .skill-line {
+      margin-bottom: 1px;
+    }
+
+    .skill-line strong {
+      font-weight: bold;
+    }
+
+    /* Règles d'impression pour format A4 */
+    @media print {
+      @page {
+        size: A4;
+        margin: 0;
+      }
+      body {
+        background: none;
+        padding: 0;
+      }
+      .ats-container {
+        padding: 8mm 12mm;
+        width: 210mm;
+        height: 297mm;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="ats-container">
+
+    <!-- EN-TÊTE -->
+    <header class="ats-main-header">
+      <h1>Mikita Kavaliou</h1>
+      <div class="ats-contact">
+        <a href="tel:+33753124025">07 53 12 40 25</a> |
+        <a href="mailto:mikita.kavaliou@outlook.fr">mikita.kavaliou@outlook.fr</a> |
+        <a href="https://mikita-kavaliou.online" target="_blank">mikita-kavaliou.online</a> |
+        <a href="https://linkedin.com/in/mikita-kavaliou" target="_blank">linkedin.com/in/mikita-kavaliou</a>
+      </div>
+      <div class="ats-subtitle">Ingénieur Test &amp; Industrialisation</div>
+      <div class="ats-location">Grenoble (38), France (Disponible immédiatement pour un poste à Veurey-Voroize) | Visa VPF (Accès libre au travail)</div>
+    </header>
+
+    <!-- RÉSUMÉ PROFESSIONNEL -->
+    <section class="ats-section">
+      <h2>RÉSUMÉ PROFESSIONNEL</h2>
+      <p>Ingénieur doublement diplômé en **Radio-Électronique (Bac+2)** et en **Génie Logiciel**, fort de plus de 5 ans d'expérience. Spécialisé dans l'interfaçage matériel/logiciel et l'automatisation de bancs de test en production. Je combine une solide maîtrise des mesures électroniques physiques et de l'architecture des microcontrôleurs (**STM32, ARM**) avec une expertise approfondie en scripting d'automatisation (**Python, Bash, C/C++**). Rigoureux, structuré et force de proposition, j'interviens dans l'industrialisation, la réduction des temps de test et le maintien opérationnel des moyens d'essais au sein d'équipes pluridisciplinaires (R&amp;D, Caractérisation, Production).</p>
+    </section>
+
+    <!-- COMPÉTENCES TECHNIQUES -->
+    <section class="ats-section">
+      <h2>COMPÉTENCES TECHNIQUES</h2>
+
+      <p class="skill-line"><strong>Électronique &amp; Semi-conducteurs :</strong> Conception et test de cartes électroniques, test de puces à pointe (test à pointe), mesures physiques, caractérisation de composants, métrologie</p>
+
+      <p class="skill-line"><strong>Scripting &amp; Automatisation :</strong> Python (traitement de données, automatisation d'équipements), Bash/Shell, C, C++, JavaScript, SQL</p>
+
+      <p class="skill-line"><strong>Systèmes &amp; Microcontrôleurs :</strong> Bare-Metal, FreeRTOS, Linux embarqué, architectures ARM Cortex, STM32, protocoles de communication (I2C, SPI, UART, USB)</p>
+
+      <p class="skill-line"><strong>Bases de Données &amp; Réseaux :</strong> Oracle, PostgreSQL, requêtes SQL complexes, TCP/IP, UDP, protocoles industriels</p>
+
+      <p class="skill-line"><strong>Outils, Méthodes &amp; Qualité :</strong> Git, GitLab CI, Docker, méthodologies agiles, suivi d'anomalies, fiches d'essais, rédaction de documentations techniques de conformité (procédures de test, rapports de qualification)</p>
+
+      <p class="skill-line"><strong>Savoir-être :</strong> Esprit d'analyse et de synthèse, goût pour l'investigation (troubleshooting de production), réactivité, rigueur</p>
+
+      <p class="skill-line"><strong>Langues :</strong> Anglais (C1 - Lecture fluide de spécifications et rapports complexes) | Français (B2 - Opérationnel)</p>
+    </section>
+
+    <!-- EXPÉRIENCE PROFESSIONNELLE -->
+    <section class="ats-section">
+      <h2>EXPÉRIENCE PROFESSIONNELLE</h2>
+
+      <div class="ats-item">
+        <div class="ats-header">
+          <span>INGÉNIEUR TEST &amp; INDUSTRIALISATION | Basesystem</span>
+          <span>02/2024 – 04/2026</span>
+        </div>
+        <ul class="ats-list">
+          <li><strong>Mise en production &amp; Bancs d'essais :</strong> Conception et mise en production de solutions d'essais et de validation sous architectures embarquées ARM/STM32. Diagnostic et résolution d'anomalies matérielles de second niveau.</li>
+          <li><strong>Optimisation des capacités de test :</strong> Développement de scripts Python d'automatisation de séquences d'essais de conformité, réduisant les temps de test de 30% tout en maintenant une traçabilité totale des résultats de mesure.</li>
+          <li><strong>Qualité &amp; Suivi produit :</strong> Rédaction de documentations de validation, rapports d'anomalies et fiches de tests unitaires pour assurer un passage de jalons de maturité optimal (Time to Market).</li>
+          <li><strong>Supervision &amp; Formation :</strong> Création d'interfaces de supervision et de GUI (graphical user interfaces) de contrôle d'équipements pour simplifier l'exploitation et assurer le support technique des équipes de production.</li>
+        </ul>
+      </div>
+
+      <div class="ats-item">
+        <div class="ats-header">
+          <span>CONSULTANT &amp; DÉVELOPPEUR SYSTÈMES | Startups B2B &amp; FinTech</span>
+          <span>01/2022 – 02/2024</span>
+        </div>
+        <ul class="ats-list">
+          <li><strong>Interly — Traitement de flux &amp; Résolution de pannes :</strong> Conception et déploiement d’un moteur de traitement de flux à haute fréquence gérant les signaux de plus de 500 capteurs concurrents avec une latence sub-300ms (protocoles IP/TCP/UDP).</li>
+          <li><strong>ZIRO.FIT — Analyse Oracle &amp; Performance :</strong> Modélisation et optimisation de structures de données SQL complexes sous PostgreSQL et Oracle, améliorant l'accès et l'analyse de gros volumes de données historiques de production.</li>
+          <li><strong>Lexity — Robustesse des outils système :</strong> Écriture de scripts d'automatisation d'environnements d'exploitation isolés (Docker), garantissant la répétabilité des conditions de test de logiciels.</li>
+        </ul>
+      </div>
+
+      <div class="ats-item">
+        <div class="ats-header">
+          <span>DÉVELOPPEUR LOGICIEL | Itransition</span>
+          <span>01/2021 – 12/2021</span>
+        </div>
+        <ul class="ats-list">
+          <li><strong>Standardisation &amp; Qualité Git :</strong> Standardisation des checklists de revue de code et implémentation de pipelines d'intégration continue sous GitLab CI. Réduction de 25% des anomalies d'intégration de modules.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FORMATION -->
+    <section class="ats-section">
+      <h2>FORMATION</h2>
+
+      <div class="ats-item" style="margin-bottom: 2px;">
+        <div class="ats-header">
+          <span>Licence en Systèmes Mobiles Programmables | BSUIR, Minsk</span>
+          <span>2019–2022</span>
+        </div>
+        <p style="margin-top: 1px; font-size: 8.5pt;"><strong>Informatique Industrielle &amp; Génie Logiciel :</strong> Architectures de microprocesseurs, logique de programmation objet, structures de données et programmation système (C, C++).</p>
+      </div>
+
+      <div class="ats-item" style="margin-bottom: 2px;">
+        <div class="ats-header">
+          <span>Diplôme de Technicien en Radio-Électronique (Bac+2) | Minsk Radioengineering College</span>
+          <span>2015–2019</span>
+        </div>
+        <p style="margin-top: 1px; font-size: 8.5pt;"><strong>Électronique analogique et numérique :</strong> Conception de circuits, métrologie, interfaçage de périphériques matériels (SPI, I2C, UART), signaux de modulation et instrumentation.</p>
+      </div>
+    </section>
+
+    <!-- LANGUES -->
+    <section class="ats-section">
+      <h2>LANGUES</h2>
+      <p><strong>Anglais :</strong> C1 (Maîtrise professionnelle écrite et parlée, lecture courante de documentations et fiches techniques) &nbsp;|&nbsp; <strong>Français :</strong> B2 (Opérationnel, échanges fluides au quotidien) &nbsp;|&nbsp; <strong>Polonais / Russe :</strong> Maternelles</p>
+    </section>
+
+  </div>
+</body>
+</html>

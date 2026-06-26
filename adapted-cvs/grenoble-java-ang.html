@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mikita Kavaliou — Développeur Fullstack Java / Angular</title>
+  <style>
+    /* === STYLE ATS OPTIMISÉ POUR UNIQUE PAGE A4 === */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #f4f6f8;
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    .ats-container {
+      width: 210mm;
+      height: 297mm;
+      padding: 8mm 12mm;
+      background-color: #fff;
+      color: #000;
+      font-size: 9.5pt;
+      line-height: 1.35;
+      box-sizing: border-box;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .ats-main-header {
+      text-align: center;
+      margin-bottom: 6px;
+    }
+
+    .ats-main-header h1 {
+      margin: 0;
+      font-size: 16pt;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+
+    .ats-contact {
+      margin: 2px 0;
+      font-size: 9.5pt;
+    }
+
+    .ats-contact a {
+      color: #000;
+      text-decoration: none;
+      border-bottom: 1px dotted #000;
+    }
+
+    .ats-subtitle {
+      font-weight: bold;
+      font-size: 11pt;
+      margin-top: 3px;
+      text-transform: uppercase;
+    }
+
+    .ats-location {
+      font-size: 9.5pt;
+      margin-top: 2px;
+      font-style: italic;
+    }
+
+    .ats-section {
+      margin-top: 8px;
+      margin-bottom: 4px;
+    }
+
+    .ats-section h2 {
+      font-size: 10.5pt;
+      text-transform: uppercase;
+      border-bottom: 1px solid #000;
+      margin: 3px 0 4px 0;
+      padding-bottom: 1px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+
+    .ats-section p {
+      margin: 0 0 3px 0;
+      text-align: justify;
+    }
+
+    .ats-item {
+      margin-bottom: 5px;
+    }
+
+    .ats-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1px;
+      font-weight: bold;
+      font-size: 9.5pt;
+    }
+
+    .ats-list {
+      margin: 1px 0;
+      padding-left: 15px;
+    }
+
+    .ats-list li {
+      margin-bottom: 1px;
+      text-align: justify;
+    }
+
+    .ats-container a {
+      color: #000;
+      text-decoration: underline;
+    }
+
+    .skill-line {
+      margin-bottom: 2px;
+    }
+
+    .skill-line strong {
+      font-weight: bold;
+    }
+
+    /* Règles d'impression pour format A4 */
+    @media print {
+      @page {
+        size: A4;
+        margin: 0;
+      }
+      body {
+        background: none;
+        padding: 0;
+      }
+      .ats-container {
+        padding: 8mm 12mm;
+        width: 210mm;
+        height: 297mm;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="ats-container">
+
+    <!-- EN-TÊTE -->
+    <header class="ats-main-header">
+      <h1>Mikita Kavaliou</h1>
+      <div class="ats-contact">
+        <a href="tel:+33753124025">07 53 12 40 25</a> |
+        <a href="mailto:mikita.kavaliou@outlook.fr">mikita.kavaliou@outlook.fr</a> |
+        <a href="https://mikita-kavaliou.online" target="_blank">mikita-kavaliou.online</a> |
+        <a href="https://linkedin.com/in/mikita-kavaliou" target="_blank">linkedin.com/in/mikita-kavaliou</a>
+      </div>
+      <div class="ats-subtitle">Développeur Fullstack Java / Angular</div>
+      <div class="ats-location">Grenoble (38), France (Mobile pour missions en région et télétravail) | Visa VPF (Accès libre au travail, sans parrainage requis)</div>
+    </header>
+
+    <!-- RÉSUMÉ PROFESSIONNEL -->
+    <section class="ats-section">
+      <h2>RÉSUMÉ PROFESSIONNEL</h2>
+      <p>Ingénieur Logiciel Fullstack fort de plus de 5 ans d'expérience post-diplôme, spécialisé dans la mise en œuvre d'architectures web découplées en environnements <strong>Java 17+ (Spring Boot)</strong> et <strong>Angular 17+</strong>. Sensibilisé aux principes de l'éco-conception logicielle (GreenIT), je veille à développer du code sobre, performant et durable. Habitué aux structures de travail collaboratives et horizontales, j'apprécie échanger activement avec les équipes produit et métier pour challenger les besoins fonctionnels et proposer des choix d'architecture résilients. Autonome et rigoureux, j'applique une forte culture DevOps pour simplifier et sécuriser les cycles de livraison.</p>
+    </section>
+
+    <!-- COMPÉTENCES TECHNIQUES -->
+    <section class="ats-section">
+      <h2>COMPÉTENCES TECHNIQUES</h2>
+
+      <p class="skill-line"><strong>Développement Backend :</strong> Java (17/21), Spring Boot, Spring Batch, JPA, Hibernate, JDBC, Web Services (REST, SOAP), API Platform, Programation Orientée Objet (SOLID, DDD)</p>
+
+      <p class="skill-line"><strong>Développement Frontend :</strong> Angular 17/18, TypeScript, JavaScript (ES6+), RxJS, HTML5, CSS3 / SASS, Tailwind CSS, optimisation de bundles client</p>
+
+      <p class="skill-line"><strong>Bases de Données :</strong> Oracle (SQL, PL-SQL), PostgreSQL, MySQL, optimisation de requêtes complexes, gestion de transactions</p>
+
+      <p class="skill-line"><strong>DevOps &amp; Cloud :</strong> Docker &amp; Docker Compose, Kubernetes, GitLab CI/CD, Google Cloud Platform (GCP), GitHub Actions, AWS</p>
+
+      <p class="skill-line"><strong>Qualité &amp; GreenIT :</strong> Éco-conception (réduction de l'empreinte serveur et mémoire), tests unitaires JUnit 5, Mockito, Testcontainers, supervision des logs, Scrum</p>
+
+      <p class="skill-line"><strong>Aptitudes :</strong> Autonomie, force de proposition technique, esprit d'entraide, veille active, anglais professionnel (C1, lecture fluide de spécifications complexes)</p>
+    </section>
+
+    <!-- EXPÉRIENCE PROFESSIONNELLE -->
+    <section class="ats-section">
+      <h2>EXPÉRIENCE PROFESSIONNELLE</h2>
+
+      <div class="ats-item">
+        <div class="ats-header">
+          <span>DÉVELOPPEUR FULLSTACK | Basesystem</span>
+          <span>02/2024 – 04/2026</span>
+        </div>
+        <ul class="ats-list">
+          <li><strong>Challenger les besoins &amp; Co-conception :</strong> Collaboration active au sein d'une équipe agile (Scrum) pour analyser de manière critique les spécifications fonctionnelles et proposer des architectures adaptées et hautement évolutives.</li>
+          <li><strong>Développement durable Backend &amp; Frontend :</strong> Développement de microservices sous Spring Boot 3 et d'interfaces web sous Angular, en respectant des patrons d'éco-conception (réduction de l'overhead réseau, nettoyage de la mémoire vive).</li>
+          <li><strong>Éco-conception &amp; Performances :</strong> Optimisation de requêtes SQL sur PostgreSQL et mise en place d'un cache distribué Redis, diminuant de 30% la consommation en ressources serveur (CPU/RAM) pour plus de 200k utilisateurs actifs.</li>
+          <li><strong>Qualité du code &amp; Supervision :</strong> Amélioration de la résilience globale du code (refactoring de code legacy vers Clean Architecture, tests unitaires et d'intégration automatisés JUnit 5 / Mockito avec une couverture globale de 80%).</li>
+          <li><strong>Culture DevOps &amp; Déploiements :</strong> Conteneurisation d'applications via Docker et orchestration sous Kubernetes, avec livraison continue par pipelines GitLab CI/CD.</li>
+          <li><strong>Dynamique collective :</strong> Mentorat auprès de 3 développeurs, animation de revues de code systématiques et participation à la supervision des environnements cloud.</li>
+        </ul>
+      </div>
+
+      <div class="ats-item">
+        <div class="ats-header">
+          <span>DÉVELOPPEUR FULLSTACK INDÉPENDANT | Startups B2B &amp; FinTech</span>
+          <span>01/2022 – 02/2024</span>
+        </div>
+        <ul class="ats-list">
+          <li><strong>ZIRO.FIT (SaaS Fitness &amp; FinTech) — Oracle &amp; PL-SQL :</strong> Conception d'une marketplace connectée à des microservices Spring Boot. Modélisation et optimisation de structures relationnelles sous Oracle, avec écriture de procédures stockées PL-SQL optimisées. Paiements sécurisés via Stripe Connect.</li>
+          <li><strong>Lexity (EdTech IA) — Architecture Cloud &amp; Sobriété :</strong> Déploiement d'un assistant RAG asynchrone sécurisé (RGPD) s'appuyant sur Spring Cloud Stream et Kafka. Intégration de modèles d'IA légers pour assurer un TTFT &lt; 200ms dans une infrastructure conteneurisée.</li>
+          <li><strong>Interly (AI Coaching vocal) — Web Services REST :</strong> Développement d'interfaces interactives dynamiques sous Angular et création d'un backend haute performance (Spring WebFlux, Project Loom) gérant 500+ requêtes et flux audio temps réel de façon économe.</li>
+        </ul>
+      </div>
+
+      <div class="ats-item">
+        <div class="ats-header">
+          <span>DÉVELOPPEUR FULLSTACK (Temps partiel) | Itransition</span>
+          <span>01/2021 – 12/2021</span>
+        </div>
+        <ul class="ats-list">
+          <li><strong>Développement Web &amp; Services :</strong> Développement de composants web responsives sous React et de services d'intégration s'appuyant sur des protocoles d'échanges SOAP et REST.</li>
+          <li><strong>Qualité &amp; Robustesse :</strong> Mise en conformité des revues de code sous Git, réduisant les défauts d'intégration post-merge à moins de 2 anomalies par sprint.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FORMATION -->
+    <section class="ats-section">
+      <h2>FORMATION</h2>
+
+      <div class="ats-item" style="margin-bottom: 2px;">
+        <div class="ats-header">
+          <span>Licence en Systèmes Mobiles Programmables (3 ans d'études d'Ingénierie validés) | BSUIR, Minsk</span>
+          <span>2019–2022</span>
+        </div>
+        <p style="margin-top: 1px; font-size: 8.5pt;">Formation scientifique solide : Algor
